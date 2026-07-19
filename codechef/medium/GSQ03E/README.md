@@ -37,7 +37,7 @@ A  **Primary Key**  is a column (or a set of columns) in a database table that u
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-19T18:29:28.689Z  
+**Submitted:** 2026-07-19T18:29:34.230Z  
 
 ```cpp
 /* Write a query to create a table 'employee', with columns employee_id, employee_Name and Department. 
