@@ -70,7 +70,7 @@ The number of ways to choose the leaders is $18$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-20T13:44:05.471Z  
+**Submitted:** 2026-07-20T13:44:25.464Z  
 
 ```py
 # cook your dish here
