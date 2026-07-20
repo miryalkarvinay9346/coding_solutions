@@ -66,13 +66,13 @@ The children need a total of $2 + 4 + 3 + 5 + 1 = 15$ candies, but Chef has only
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-20T13:39:10.790Z  
+**Submitted:** 2026-07-20T13:38:31.115Z  
 
 ```py
 # cook your dish here
 n,c=map(int,input().split())
 a=list(map(int,input().split()))
-print("YES" if sum(a)<=c else "NO")
+
 ```
 
 ---
