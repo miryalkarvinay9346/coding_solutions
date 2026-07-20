@@ -44,7 +44,7 @@ The medians of the contiguous subarrays of length $4$ are $2$, $2$, $5$, and $3$
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-20T14:08:12.446Z  
+**Submitted:** 2026-07-20T14:07:11.788Z  
 
 ```py
 # cook your dish here
@@ -56,7 +56,7 @@ for i in range(p):
     b=a[i:i+k]
     b.sort()
     if len(b)%2==0:
-        s=b[(len(b)//2)-1]
+        s=(b[len(b)//2]+b[(len(b)//2)+1])//2
         v.append(s)
     else:
         v.append(b[(len(b))//2])
