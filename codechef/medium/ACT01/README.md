@@ -61,12 +61,12 @@ Chef has $3$ pens but needs $5$. Therefore, he needs to buy $5 - 3 = 2$ more pen
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-20T13:36:23.103Z  
+**Submitted:** 2026-07-20T13:36:46.121Z  
 
 ```py
 # cook your dish here
 n,p=map(int,input().split())
-
+print(n-p)
 ```
 
 ---
