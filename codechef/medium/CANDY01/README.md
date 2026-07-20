@@ -66,7 +66,7 @@ The children need a total of $2 + 4 + 3 + 5 + 1 = 15$ candies, but Chef has only
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-20T13:38:06.745Z  
+**Submitted:** 2026-07-20T13:38:23.086Z  
 
 ```py
 # cook your dish here
