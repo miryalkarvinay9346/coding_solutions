@@ -58,18 +58,14 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-22T16:12:02.620Z  
+**Submitted:** 2026-07-22T16:07:42.585Z  
 
 ```py
 # cook your dish here
-import math
 for _ in range(int(input())):
     n=int(input())
     a=list(map(int,input().split()))
-    for i in range(n):
-        k=sum(a)/len(a)
-        
-    print(k)
+    
 ```
 
 ---
