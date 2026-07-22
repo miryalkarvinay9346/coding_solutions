@@ -58,7 +58,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-22T16:23:53.188Z  
+**Submitted:** 2026-07-22T16:12:40.576Z  
 
 ```py
 # cook your dish here
@@ -68,7 +68,7 @@ for _ in range(int(input())):
     a=list(map(int,input().split()))
     while len(a)>=1:
         k=sum(a)/len(a)
-        for i 
+        
         
     print(k)
 ```
