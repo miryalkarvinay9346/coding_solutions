@@ -5,6 +5,6 @@ for _ in range(int(input())):
     a=list(map(int,input().split()))
     while len(a)>=1:
         k=sum(a)/len(a)
-        
+        for i 
         
     print(k)
