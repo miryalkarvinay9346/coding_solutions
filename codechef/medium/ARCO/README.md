@@ -65,7 +65,7 @@ Remove one of the `2`s to obtain the array `[1, 2, 2, 1]`. Then remove one of th
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-27T14:22:55.855Z  
+**Submitted:** 2026-07-27T14:28:05.257Z  
 
 ```py
 # cook your dish here
