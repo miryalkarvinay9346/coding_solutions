@@ -44,10 +44,12 @@ Revenue = $5 + 5 = 10$, which is greater than selling the plank as a single piec
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-27T14:30:52.519Z  
+**Submitted:** 2026-07-27T14:32:38.516Z  
 
 ```py
 # cook your dish here
+n=int(input())
+a=list(map(int,input().split()))
 
 ```
 
