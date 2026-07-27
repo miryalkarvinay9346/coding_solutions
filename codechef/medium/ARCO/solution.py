@@ -1,10 +1,7 @@
 # cook your dish here
 n=int(input())
 a=list(map(int,input().split()))
-k=[]
-for i in a:
-    if k and k[-1]==i:
-        k.pop()
-    else:
-        k.append(i)
-print(len(k))
+for i in range(n-1):
+    if a[i]==a[i+1]:
+        a.remove(a[i+1])
+print(len(a))
