@@ -3,7 +3,7 @@ n=int(input())
 a=list(map(int,input().split()))
 k=[]
 for i in a:
-    if k and k[-1]==i:
+    if k==True and k[-1]==i:
         k.pop()
     else:
         k.append(i)
