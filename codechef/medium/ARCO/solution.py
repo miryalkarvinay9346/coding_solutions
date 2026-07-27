@@ -1,10 +1,9 @@
 # cook your dish here
 n=int(input())
 a=list(map(int,input().split()))
-stack=[]
-for i in a:
-    if stack>0 and stack[-1]==i:
-        stack.pop()
-    else:
-        stack.append(i)
-print(len(stack))
+i=0
+while (i>n):
+    if a[i]==a[i+1]:
+        a.remove(a[i])
+        i=i-1
+print(len(a))
