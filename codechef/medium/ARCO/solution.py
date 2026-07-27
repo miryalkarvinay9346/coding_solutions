@@ -1,10 +1,10 @@
 # cook your dish here
 n=int(input())
 a=list(map(int,input().split()))
-k=[]
+stack=[]
 for i in a:
-    if k>0 and k[-1]==i:
-        k.pop()
+    if stack>0 and stack[-1]==i:
+        stack.pop()
     else:
-        k.append(i)
-print(len(k))
+        stack.append(i)
+print(len(stack))
