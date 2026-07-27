@@ -56,12 +56,12 @@ Chef already has enough XP to unlock the next level.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-27T13:58:08.786Z  
+**Submitted:** 2026-07-27T13:59:29.721Z  
 
 ```py
 # cook your dish here
 x,y=map(int,input().split())
-
+print("UNLOCKED" if x<=y else x-y)
 ```
 
 ---
