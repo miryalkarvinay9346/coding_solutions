@@ -65,16 +65,19 @@ Remove one of the `2`s to obtain the array `[1, 2, 2, 1]`. Then remove one of th
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-27T14:04:55.274Z  
+**Submitted:** 2026-07-27T14:22:10.912Z  
 
 ```py
 # cook your dish here
 n=int(input())
 a=list(map(int,input().split()))
-for i in range(n-1):
-    if a[i]==a[i+1]:
-        a.remove(a[i+1])
-print(len(a))
+k=[]
+for i in a:
+    if k==1 and k[-1]==i:
+        k.pop()
+    else:
+        k.append(i)
+print(len(k))
 ```
 
 ---
