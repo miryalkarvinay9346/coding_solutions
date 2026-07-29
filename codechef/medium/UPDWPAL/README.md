@@ -70,7 +70,7 @@ No
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-29T16:55:16.505Z  
+**Submitted:** 2026-07-29T16:55:45.077Z  
 
 ```py
 # cook your dish here
@@ -87,7 +87,7 @@ for _ in range(int(input())):
         if a==a[::-1]:
             c=1
             break
-        x=a[]
+        #x=a[]
     if c:
         print("YES")
     else:
