@@ -12,7 +12,7 @@ for _ in range(int(input())):
         if a==a[::-1]:
             c=1
             break
-        x=a[]
+        #x=a[]
     if c:
         print("YES")
     else:
