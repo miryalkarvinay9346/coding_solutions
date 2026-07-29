@@ -59,12 +59,12 @@ $48$ has two different digits $4$ and $8$, so it is  *varied*.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-29T14:51:05.198Z  
+**Submitted:** 2026-07-29T14:42:21.094Z  
 
 ```py
 # cook your dish here
-x=(input())
-print("YES" if x[0]!=x[1] else "NO")
+x=int(input())
+print("YEs" if x%10!=x%100 else "No")
 ```
 
 ---
