@@ -72,7 +72,7 @@ In the first month, its price increases by $Y=2$ to become $8$ coins. Chef earns
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-29T14:58:19.584Z  
+**Submitted:** 2026-07-29T14:58:08.726Z  
 
 ```py
 # cook your dish here
