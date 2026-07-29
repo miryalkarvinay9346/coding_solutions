@@ -58,11 +58,13 @@ It can be verified that this is the minimum number of operations needed.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-29T15:49:20.407Z  
+**Submitted:** 2026-07-29T15:50:30.415Z  
 
 ```py
 # cook your dish here
-
+for _ in range(int(input())):
+    x,y,p=map(int,input().split())
+    
 ```
 
 ---
