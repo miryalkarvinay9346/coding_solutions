@@ -70,14 +70,26 @@ No
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-29T16:04:10.519Z  
+**Submitted:** 2026-07-29T16:08:23.519Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n=int(input())
     a=list(map(int,input().split()))
-    
+    c=0
+    for i in range(1,n):
+        if a[i]<=x:
+            a[i]=a[i]+1
+        else:
+            a[i]=a[i]-1
+        if a==a[::-1]:
+            c=1
+            break
+    if c:
+        print("YES")
+    else:
+        print("NO")
 ```
 
 ---
