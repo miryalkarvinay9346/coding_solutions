@@ -55,12 +55,12 @@ It can be verified that this is the minimum number of operations needed.
 
 ## Solution
 
-**Language:** plain_text  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-29T15:48:54.709Z  
+**Submitted:** 2026-07-29T15:48:55.122Z  
 
-```plain_text
+```py
 # cook your dish here
 
 ```
