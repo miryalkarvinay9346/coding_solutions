@@ -70,11 +70,14 @@ No
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-29T16:01:08.500Z  
+**Submitted:** 2026-07-29T16:02:16.767Z  
 
 ```py
 # cook your dish here
-
+for _ in range(int(input())):
+    n=int(input())
+    a=list(map(int,input().split()))
+    
 ```
 
 ---
