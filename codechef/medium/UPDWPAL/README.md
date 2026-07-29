@@ -70,7 +70,7 @@ No
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-29T16:10:06.521Z  
+**Submitted:** 2026-07-29T16:09:28.507Z  
 
 ```py
 # cook your dish here
@@ -78,7 +78,7 @@ for _ in range(int(input())):
     n=int(input())
     a=list(map(int,input().split()))
     c=0
-    x=a[len(a)//2]
+    x=a[-1]
     for i in range(1,n):
         if a[i]<=x:
             a[i]=a[i]+1
