@@ -58,7 +58,7 @@ It can be verified that this is the minimum number of operations needed.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-29T15:51:27.434Z  
+**Submitted:** 2026-07-29T15:58:22.799Z  
 
 ```py
 # cook your dish here
@@ -68,7 +68,13 @@ for _ in range(int(input())):
     if x*y>=p:
         print(0)
     else:
-        
+        while x*y<p:
+            if min(x,y)==x:
+                x=x+1
+            else:
+                y=y+1
+            c+=1
+        print(c)
 ```
 
 ---
