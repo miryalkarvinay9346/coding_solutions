@@ -65,7 +65,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-29T16:33:30.960Z  
+**Submitted:** 2026-07-29T16:31:25.948Z  
 
 ```py
 # cook your dish here
@@ -76,10 +76,7 @@ for _ in range(int(input())):
     for i in range(n):
         for j in range(n):
             if a[i]!=a[j] and i!=j:
-                if a[i]<min(a[i-1],a[i+1]):
-                    a[i-1]=a[i]
-                    a[i+1]=a[i]
-                    
+                if 
 ```
 
 ---
