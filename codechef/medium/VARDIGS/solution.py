@@ -1,2 +1,3 @@
 # cook your dish here
-x=int(input())
+x=(input())
+print("YES" if x[0]!=x[1] else "NO")
