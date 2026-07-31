@@ -1,0 +1,70 @@
+# ACCURACY - Rating 580
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-green)
+
+## Problem
+
+### High Accuracy
+
+There are $100$ questions in a paper. Each question carries `+3` marks for correct answer, `-1` marks for incorrect answer and `0` marks for unattempted question.
+
+It is given that Chef received exactly $X$ $(0 \leq X \leq 100)$ marks. Determine the  **minimum**  number of problems Chef marked  **incorrect**.
+
+### Input Format
+- First line will contain $T$, number of test cases. Then the test cases follow.
+- Each testcase contains of a single integer $X$, marks that Chef received.
+### Output Format
+
+For each test case, output the  **minimum**  number of problems Chef marked incorrect.
+
+### Constraints
+- $1 \leq T \leq 100$
+- $0 \leq X \leq 100$
+### Sample 1:
+Input
+Output
+
+```
+4
+0
+100
+32
+18
+
+```
+
+```
+0
+2
+1
+0
+
+```
+
+### Explanation:
+
+ **Test Case $1$:**  It might be possible that Chef didn't attempt any question in which case he didn't get any question incorrect.
+
+ **Test Case $2$:**  For the case when Chef got $34$ questions correct and $2$ questions incorrect, Chef marked minimum incorrect questions.
+
+ **Test Case $3$:**  For the case when Chef got $11$ questions correct and $1$ question incorrect, Chef marked minimum incorrect questions.
+
+ **Test Case $4$:**  For the case when Chef got $6$ questions correct and no question incorrect, Chef marked minimum incorrect questions.
+
+## Solution
+
+**Language:** Python  
+**Runtime:** N/A  
+**Memory:** N/A  
+**Submitted:** 2026-07-31T17:06:50.443Z  
+
+```py
+# cook your dish here
+for _ in range(int(input())):
+    x=int(input())
+    
+```
+
+---
+
+[View on CodeChef](https://www.codechef.com/problems/ACCURACY)
