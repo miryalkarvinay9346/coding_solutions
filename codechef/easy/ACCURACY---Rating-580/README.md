@@ -56,13 +56,14 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-31T17:06:54.641Z  
+**Submitted:** 2026-07-31T17:09:11.646Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     x=int(input())
-    
+    k=x%3
+    print(k%3 if k%3==0 else 3-k%3)
 ```
 
 ---
