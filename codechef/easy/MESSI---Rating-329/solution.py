@@ -1,3 +1,3 @@
 # cook your dish here
 x,y=map(int,input().split())
-print("FREEKICK" if x>y else "")
+print("FREEKICK" if x>y else "PENALTY")
