@@ -83,7 +83,7 @@ $9$ is itself a multiple of $3$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-01T04:54:15.399Z  
+**Submitted:** 2026-08-01T04:54:50.424Z  
 
 ```py
 # cook your dish here
@@ -92,7 +92,7 @@ n=int(input())
 if n%3==0:
     print(n)
 else:
-    print(n+1,math.ceil(n)-1)
+    print(n+1 if (n+1)%3==0 else n-1)
 ```
 
 ---
