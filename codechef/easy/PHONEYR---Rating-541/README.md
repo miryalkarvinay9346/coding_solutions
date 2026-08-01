@@ -60,7 +60,7 @@ Note that any zeros are printed as-is, and are not ignored.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-31T18:50:51.290Z  
+**Submitted:** 2026-07-31T18:50:51.453Z  
 
 ```py
 # cook your dish here
