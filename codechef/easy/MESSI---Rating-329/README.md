@@ -73,12 +73,12 @@ So, a penalty session will be carried out.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-01T05:00:51.711Z  
+**Submitted:** 2026-08-01T04:59:02.432Z  
 
 ```py
 # cook your dish here
 x,y=map(int,input().split())
-print("FREEKICK" if x>y else "PENALTY")
+
 ```
 
 ---
