@@ -85,18 +85,14 @@ For the fourth operation, the minimum value in the entire array is $1$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-03T15:17:36.272Z  
+**Submitted:** 2026-08-03T15:16:09.301Z  
 
 ```py
 # cook your dish here
 n=int(input())
 a=list(map(int,input().split()))
 q=int(input())
-b=[]
-for _ in range(q):
-    k=list(map(int,input().split()))
-    b.append(k)
-print(b)
+
 ```
 
 ---
