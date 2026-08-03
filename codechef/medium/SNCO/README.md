@@ -85,12 +85,12 @@ Since the totals are not equal, the answer is `NO`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-03T13:42:53.876Z  
+**Submitted:** 2026-08-03T13:43:24.918Z  
 
 ```py
 # cook your dish here
-a,x,,b,y=map(int,input().split())
-
+a,x,b,y=map(int,input().split())
+print("YES" if a*x==b*y else "NO")
 ```
 
 ---
