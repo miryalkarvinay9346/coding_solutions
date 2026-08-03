@@ -75,18 +75,13 @@ $$ 31-29=2 $$
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-03T14:11:19.575Z  
+**Submitted:** 2026-08-03T14:07:37.552Z  
 
 ```py
 # cook your dish here
 n=int(input())
 a=list(map(int,input().split()))
-a.sort()
-m=float('inf')
-for i in range(n-1):
-    if abs(a[i]-a[i+1])<m:
-        m=abs(a[i]-a[i+1])
-print(m)
+
 ```
 
 ---
