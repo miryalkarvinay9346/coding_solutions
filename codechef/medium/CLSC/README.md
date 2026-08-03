@@ -75,16 +75,13 @@ $$ 31-29=2 $$
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-03T14:08:58.549Z  
+**Submitted:** 2026-08-03T14:07:15.569Z  
 
 ```py
 # cook your dish here
 n=int(input())
 a=list(map(int,input().split()))
-a.sort()
-m=float('inf')
-for i in range(n):
-    if a[i]
+
 ```
 
 ---
