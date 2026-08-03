@@ -72,11 +72,11 @@ Hence, Chef cannot make a balanced selection.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-03T13:44:25.763Z  
+**Submitted:** 2026-08-03T13:49:46.732Z  
 
 ```py
 # cook your dish here
-
+a,b,c,d=map(int,input().split())
 ```
 
 ---
