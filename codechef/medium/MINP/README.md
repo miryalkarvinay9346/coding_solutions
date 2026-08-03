@@ -95,10 +95,12 @@ Therefore, no valid partition is possible, so the answer is $-1$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-03T14:17:30.200Z  
+**Submitted:** 2026-08-03T14:24:41.198Z  
 
 ```py
 # cook your dish here
+n,k=map(int,input().split())
+a=list(map(int,input().split()))
 
 ```
 
