@@ -85,7 +85,7 @@ For the fourth operation, the minimum value in the entire array is $1$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-03T14:15:22.312Z  
+**Submitted:** 2026-08-03T14:15:27.960Z  
 
 ```py
 # cook your dish here
