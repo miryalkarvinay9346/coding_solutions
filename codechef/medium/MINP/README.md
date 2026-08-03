@@ -95,7 +95,7 @@ Therefore, no valid partition is possible, so the answer is $-1$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-03T14:16:51.219Z  
+**Submitted:** 2026-08-03T14:17:15.205Z  
 
 ```py
 # cook your dish here
