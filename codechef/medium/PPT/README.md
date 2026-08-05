@@ -55,11 +55,14 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T14:49:35.761Z  
+**Submitted:** 2026-08-05T14:50:45.760Z  
 
 ```py
 # cook your dish here
 n=int(input())
+if n==0:
+    print(20)
+    
 
 ```
 
