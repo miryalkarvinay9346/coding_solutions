@@ -58,14 +58,13 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T15:18:30.946Z  
+**Submitted:** 2026-08-05T15:17:03.947Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n=int(input())
     a=list(map(int,input().split()))
-    b=0
     
 ```
 
