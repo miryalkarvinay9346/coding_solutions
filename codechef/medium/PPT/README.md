@@ -55,12 +55,12 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T14:50:05.807Z  
+**Submitted:** 2026-08-05T14:51:56.525Z  
 
 ```py
 # cook your dish here
 n=int(input())
-
+print(20-n)
 ```
 
 ---
