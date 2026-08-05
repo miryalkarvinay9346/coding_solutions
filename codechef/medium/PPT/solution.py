@@ -1,3 +1,5 @@
 # cook your dish here
 n=int(input())
-print(20-n)
+if n==0:
+    print(20)
+elif n*30<
