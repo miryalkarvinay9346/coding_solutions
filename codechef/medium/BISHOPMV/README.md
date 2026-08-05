@@ -59,13 +59,13 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T14:57:27.463Z  
+**Submitted:** 2026-08-05T14:58:42.496Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     x1,x2,y1,y2=map(int,input().split())
-    
+    if 
 ```
 
 ---
