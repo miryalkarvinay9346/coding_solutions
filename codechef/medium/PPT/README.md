@@ -55,14 +55,12 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T14:51:40.805Z  
+**Submitted:** 2026-08-05T14:49:55.798Z  
 
 ```py
 # cook your dish here
 n=int(input())
-if n==0:
-    print(20)
-elif n*30<
+
 ```
 
 ---
