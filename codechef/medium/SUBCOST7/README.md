@@ -53,13 +53,16 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T14:53:09.332Z  
+**Submitted:** 2026-08-05T14:54:22.146Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n,x,y=map(int,input().split())
-    
+    if n<=3:
+        print(x*n)
+    else:
+        print((n-3)*y+x*3)
 ```
 
 ---
