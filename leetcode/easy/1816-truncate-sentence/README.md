@@ -56,9 +56,9 @@ Output: "chopper is not a tanuki"
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 19.1 MB  
-**Submitted:** 2026-08-05T16:55:01.522Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 19.4 MB (beats 17.40%)  
+**Submitted:** 2026-08-05T16:55:09.735Z  
 
 ```py
 class Solution:
