@@ -38,9 +38,9 @@ The digit product of 16 is 6, which is divisible by 3, making it the smallest nu
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 19.4 MB  
-**Submitted:** 2026-08-07T07:07:16.219Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 19.3 MB (beats 73.71%)  
+**Submitted:** 2026-08-07T07:07:22.419Z  
 
 ```py
 class Solution:
