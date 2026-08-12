@@ -7,9 +7,13 @@ for _ in range(int(input())):
             print(c)
             break
         else:
-            c+=1
+            #c+=1
             if (n+1)%3==0:
+                c+=1
                 print(c)
+                
                 break
             else:
                 n=round(n/2)*5
+                print(n)
+            c+=1
