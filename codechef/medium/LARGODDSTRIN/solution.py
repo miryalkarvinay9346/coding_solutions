@@ -11,5 +11,3 @@ def findLargestOddSubstring(num):
         return (p[::-1])
     else:
         return (c)
-            
-    
