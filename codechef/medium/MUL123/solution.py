@@ -8,4 +8,8 @@ for _ in range(int(input())):
             break
         else:
             c+=1
-            n=round(n/2)*5
+            if (n+1)%3==0:
+                print(c)
+                break
+            else:
+                n=round(n/2)*5
