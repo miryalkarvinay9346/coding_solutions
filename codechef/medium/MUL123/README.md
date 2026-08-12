@@ -73,12 +73,13 @@ It can be verified that using fewer than two operations is not enough to make $N
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-12T14:51:54.586Z  
+**Submitted:** 2026-08-12T14:52:39.652Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n=int(input())
+    c=0
     
 ```
 
