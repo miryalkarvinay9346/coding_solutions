@@ -6,10 +6,12 @@ for _ in range(int(input())):
         if n%3==0:
             print(c)
             break
-        else:
+        
+        if (n+1)%3==0:
             c+=1
-            if (n+1)%3==0:
-                print(c)
-                break
-            else:
-                n=round(n/2)*5
+            print(c)
+            break
+        else:
+            n=round(n/2)*5
+            #print(n)
+            c+=1
