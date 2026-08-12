@@ -74,7 +74,7 @@ It's optimal to enter from the back, and walk through rows $6, 5, 4$ to reach it
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-12T15:57:49.694Z  
+**Submitted:** 2026-08-12T16:00:47.409Z  
 
 ```py
 # cook your dish here
@@ -85,7 +85,7 @@ for  _ in range(int(input())):
     c=0
     for i in range(1,n+1):
         if (i-1)*m+1<=x and i*m>=x :
-            c=m
+            c=i
     print(min(c,n-c+1))
             
 ```
