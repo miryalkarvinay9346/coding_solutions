@@ -73,7 +73,7 @@ It can be verified that using fewer than two operations is not enough to make $N
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-12T15:14:08.916Z  
+**Submitted:** 2026-08-12T15:05:34.547Z  
 
 ```py
 # cook your dish here
@@ -84,14 +84,16 @@ for _ in range(int(input())):
         if n%3==0:
             print(c)
             break
-        
-        if (n+1)%3==0:
-            c+=1
-            print(c)
-            break
         else:
-            n=((n//2)+1)*5
-            #print(n)
+            #c+=1
+            if (n+1)%3==0:
+                c+=1
+                print(c)
+                
+                break
+            else:
+                n=round(n/2)*5
+                print(n)
             c+=1
 ```
 
