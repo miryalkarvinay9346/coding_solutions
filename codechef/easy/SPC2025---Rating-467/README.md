@@ -66,12 +66,12 @@ Half of $9$ is $4.5$. Ved has errors in less than half the lines, thus he is a p
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-13T16:35:31.589Z  
+**Submitted:** 2026-08-13T16:32:37.022Z  
 
 ```py
 # cook your dish here
 n,m=map(int,input().split())
-print("PRO" if m<(n/2) else "NEWBIE")
+
 ```
 
 ---
