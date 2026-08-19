@@ -59,12 +59,12 @@ Chef scored $300$ points while the cutoff was $361$, hence he failed to get a go
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T14:56:46.240Z  
+**Submitted:** 2026-08-19T14:57:43.655Z  
 
 ```py
 # cook your dish here
 n,g=map(int,input().split())
-
+print("Yes" if n>=g else "No")
 ```
 
 ---
