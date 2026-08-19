@@ -9,10 +9,4 @@ for _ in range(int(input())):
             ec=0
         else:
             ec=0
-    if oc==ec:
-        print(n)
-    else:
-        if oc%2!=0:
-            print(oc+2)
-        elif ev%2==0:
-            print(ec+2)
+    
