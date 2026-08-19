@@ -9,4 +9,7 @@ for _ in range(int(input())):
             ec=0
         else:
             ec=0
-    
+    if oc==ec:
+        print(n)
+    else:
+        
