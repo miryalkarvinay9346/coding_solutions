@@ -14,5 +14,5 @@ for _ in range(int(input())):
     else:
         if oc%2!=0:
             print(oc+2)
-        elif ev%2==0:
+        else:
             print(ec+2)
