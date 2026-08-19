@@ -54,7 +54,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T15:43:18.951Z  
+**Submitted:** 2026-08-19T15:41:59.993Z  
 
 ```py
 # cook your dish here
@@ -72,8 +72,6 @@ for _ in range(int(input())):
         print(n)
     else:
         if oc%2!=0:
-            print(oc+2)
-        else:
             print(ec+2)
 ```
 
