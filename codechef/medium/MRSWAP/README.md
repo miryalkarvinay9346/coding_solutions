@@ -56,18 +56,15 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T16:00:35.302Z  
+**Submitted:** 2026-08-19T15:56:39.970Z  
 
 ```py
 # cook your dish here
 for  _ in range(int(input())):
     n=int(input())
     a=list(map(int,input().split()))
-    s=0
-    x,y=0,2*n-1
-    while x<y:
-        s+=max(a[x],a[y])
-    print(s)
+    
+
 ```
 
 ---
