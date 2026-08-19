@@ -54,7 +54,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T15:45:35.953Z  
+**Submitted:** 2026-08-19T15:49:48.968Z  
 
 ```py
 # cook your dish here
@@ -65,16 +65,13 @@ for _ in range(int(input())):
     ec=0
     for i in a:
         if i%2==0:
-            ec=0
+            ec+=1
         else:
-            ec=0
-    if oc==ec:
-        print(n)
+            oc+=1
+    if abs(ec-oc)<=1:
+        print(oc+ec)
     else:
-        if oc%2!=0:
-            print(oc+2)
-        elif ev%2==0:
-            print(ec+2)
+        print(2*(min(oc,ec))+1)
 ```
 
 ---
