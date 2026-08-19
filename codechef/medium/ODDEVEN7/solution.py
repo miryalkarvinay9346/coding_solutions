@@ -13,4 +13,6 @@ for _ in range(int(input())):
         print(n)
     else:
         if oc%2!=0:
+            print(oc+2)
+        elif ev%2==0:
             print(ec+2)
