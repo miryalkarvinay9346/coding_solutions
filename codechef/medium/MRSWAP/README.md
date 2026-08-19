@@ -53,13 +53,17 @@ Output
 
 ## Solution
 
-**Language:** plain_text  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T14:57:58.578Z  
+**Submitted:** 2026-08-19T14:58:55.963Z  
 
-```plain_text
+```py
 # cook your dish here
+for  _ in range(int(input())):
+    n=int(input())
+    a=list(map(int,input().split()))
+    
 
 ```
 
