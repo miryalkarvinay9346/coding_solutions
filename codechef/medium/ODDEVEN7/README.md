@@ -54,7 +54,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T15:43:42.991Z  
+**Submitted:** 2026-08-19T15:32:04.926Z  
 
 ```py
 # cook your dish here
@@ -68,13 +68,7 @@ for _ in range(int(input())):
             ec=0
         else:
             ec=0
-    if oc==ec:
-        print(n)
-    else:
-        if oc%2!=0:
-            print(oc+2)
-        elif ev%2==0:
-            print(ec+2)
+    
 ```
 
 ---
