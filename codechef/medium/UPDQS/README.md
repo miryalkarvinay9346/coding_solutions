@@ -69,26 +69,11 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T16:36:58.032Z  
+**Submitted:** 2026-08-19T16:29:07.997Z  
 
 ```py
 # cook your dish here
-for _ in range(int(input())):
-    n,q=map(int,input().split())
-    a=list(map(int,input().split()))
-    i=[]
-    x=[]
-    for m in range(q):
-        v,y=map(int,input().split())
-        i.append(v)
-        x.append(y)
-    for k in range(n-1):
-        s=0
-        s+=a[i+1]
-        s+=a[i-1]
-        s+=a[i]
-        a[i]=min(s,a[i])
-    print(sum(a))
+
 ```
 
 ---
