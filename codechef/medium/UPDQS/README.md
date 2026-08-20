@@ -69,7 +69,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T16:37:25.022Z  
+**Submitted:** 2026-08-19T16:35:57.030Z  
 
 ```py
 # cook your dish here
@@ -83,10 +83,7 @@ for _ in range(int(input())):
         i.append(v)
         x.append(y)
     for k in range(n-1):
-        s=0
-        s+=a[i+1]
-        s+=a[i-1]
-        s+=a[i]
+        s=a[i+1]+a[i-1]+a[i]
         a[i]=min(s,a[i])
     print(sum(a))
 ```
