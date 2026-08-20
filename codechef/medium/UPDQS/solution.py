@@ -9,9 +9,6 @@ for _ in range(int(input())):
         i.append(v)
         x.append(y)
     for k in range(n-1):
-        s=0
-        s+=a[i+1]
-        s+=a[i-1]
-        s+=a[i]
+        s=a[i+1]+a[i-1]+a[i]
         a[i]=min(s,a[i])
     print(sum(a))
