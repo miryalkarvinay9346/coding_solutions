@@ -1,2 +1,3 @@
 # cook your dish here
-s=input()
+s=input().lower()
+
