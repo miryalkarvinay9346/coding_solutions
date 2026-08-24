@@ -55,12 +55,12 @@ Only  **1 edge reversal**  is required, so the answer is `1`.
 
 ## Solution
 
-**Language:** plain_text  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T14:09:02.999Z  
+**Submitted:** 2026-08-24T14:09:07.212Z  
 
-```plain_text
+```py
 # cook your dish here
 
 ```
