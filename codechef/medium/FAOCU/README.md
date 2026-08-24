@@ -74,7 +74,7 @@ Therefore, all those substrings are anagrams of `xyz`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T13:54:37.960Z  
+**Submitted:** 2026-08-24T14:12:15.222Z  
 
 ```py
 # cook your dish here
