@@ -59,7 +59,7 @@ For the third test case, its sum cannot be made `0`. Therefore, the answer is `-
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T13:44:15.088Z  
+**Submitted:** 2026-08-24T13:45:43.104Z  
 
 ```py
 # cook your dish here
@@ -67,7 +67,10 @@ for _ in range(int(input())):
     n=int(input())
     a=list(map(int,input().split()))
     c=0
-    
+    if sum(a)==0:
+        print(c)
+    else:
+        
 ```
 
 ---
