@@ -74,13 +74,11 @@ Therefore, all those substrings are anagrams of `xyz`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T14:23:24.895Z  
+**Submitted:** 2026-08-24T14:12:29.594Z  
 
 ```py
 # cook your dish here
 s=input()
-p=input()
-a=[]
 
 ```
 
