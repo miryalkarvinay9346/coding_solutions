@@ -59,7 +59,7 @@ For the third test case, its sum cannot be made `0`. Therefore, the answer is `-
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T13:43:34.023Z  
+**Submitted:** 2026-08-24T13:43:39.092Z  
 
 ```py
 # cook your dish here
