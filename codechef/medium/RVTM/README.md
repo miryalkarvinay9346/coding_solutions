@@ -71,10 +71,12 @@ Therefore, the number of valid ways is  **2**.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T14:09:56.671Z  
+**Submitted:** 2026-08-24T14:10:28.470Z  
 
 ```py
 # cook your dish here
+a=input()
+b=input()
 
 ```
 
