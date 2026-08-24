@@ -67,11 +67,12 @@ Since `x` comes first alphabetically, the answer is `x`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T13:52:25.368Z  
+**Submitted:** 2026-08-24T13:54:19.365Z  
 
 ```py
 # cook your dish here
-s=input()
+s=input().lower()
+
 
 ```
 
