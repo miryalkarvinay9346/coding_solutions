@@ -67,7 +67,7 @@ Since `x` comes first alphabetically, the answer is `x`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T14:05:42.341Z  
+**Submitted:** 2026-08-24T14:06:22.344Z  
 
 ```py
 # cook your dish here
@@ -82,7 +82,7 @@ for i in range(len(s)):
     a.append(c)
 m=max(a)
 ind=a.index(m)
-print(k[ind])
+print(s[ind])
 
 ```
 
