@@ -10,4 +10,4 @@ for i in range(len(s)):
     a.append(c)
 m=max(a)
 ind=a.index(m)
-print(k[ind])
+print(s[ind])
