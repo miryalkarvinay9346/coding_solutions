@@ -61,7 +61,7 @@ Since the robot can travel only $5$ units, it cannot reach the charging station.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T13:36:30.173Z  
+**Submitted:** 2026-08-24T13:37:04.153Z  
 
 ```py
 # cook your dish here
