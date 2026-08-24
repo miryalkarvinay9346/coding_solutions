@@ -71,7 +71,7 @@ Therefore, the number of valid ways is  **2**.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T14:10:28.470Z  
+**Submitted:** 2026-08-24T14:10:33.473Z  
 
 ```py
 # cook your dish here
