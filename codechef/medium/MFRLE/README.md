@@ -67,11 +67,22 @@ Since `x` comes first alphabetically, the answer is `x`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T13:53:11.342Z  
+**Submitted:** 2026-08-24T14:05:38.256Z  
 
 ```py
 # cook your dish here
-s=input()
+k=input().lower()
+s=''.join(sorted(k))
+a=[]
+for i in range(len(s)):
+    c=0
+    for j in range(len(s)):
+        if s[i]==s[j] and s[i].isalpha():
+            c+=1
+    a.append(c)
+m=max(a)
+ind=a.index(m)
+print(k[ind])
 
 ```
 
