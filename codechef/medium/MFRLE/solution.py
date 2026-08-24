@@ -8,6 +8,7 @@ for i in range(len(s)):
         if s[i]==s[j] and s[i].isalpha():
             c+=1
     a.append(c)
-m=max(a)
-ind=a.index(m)
-print(s[ind])
+if s:
+    m=max(a)
+    ind=a.index(m)
+    print(s[ind])
