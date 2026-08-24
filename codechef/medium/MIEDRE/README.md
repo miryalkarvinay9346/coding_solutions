@@ -58,7 +58,7 @@ Only  **1 edge reversal**  is required, so the answer is `1`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T14:09:07.212Z  
+**Submitted:** 2026-08-24T14:09:11.200Z  
 
 ```py
 # cook your dish here
