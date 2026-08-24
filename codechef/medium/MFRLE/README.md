@@ -67,7 +67,7 @@ Since `x` comes first alphabetically, the answer is `x`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T14:07:57.370Z  
+**Submitted:** 2026-08-24T14:17:51.756Z  
 
 ```py
 # cook your dish here
@@ -80,9 +80,10 @@ for i in range(len(s)):
         if s[i]==s[j] and s[i].isalpha():
             c+=1
     a.append(c)
-m=max(a)
-ind=a.index(m)
-print(s[ind])
+if s:
+    m=max(a)
+    ind=a.index(m)
+    print(s[ind])
 
 ```
 
