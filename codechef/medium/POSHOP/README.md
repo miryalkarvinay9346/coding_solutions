@@ -65,17 +65,18 @@ However, it's still optimal to buy only the first item rather than buy any two o
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T16:16:59.043Z  
+**Submitted:** 2026-08-26T16:09:47.438Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n=int(input())
     c=list(map(int,input().split()))
-    a=max(c)
+    a=0
     for i in range(n):
+        s=0
         for j in range(i+1,n):
-            if c[i]<=c[j] and c[j] >=c[i]:
+            if c[i]<=c[j] and c[j] >c[i]:
                 k=c[i]+c[j]
                 a=max(k,a)
     print(a)
