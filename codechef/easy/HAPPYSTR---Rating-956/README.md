@@ -61,7 +61,7 @@ Happy
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T06:54:04.544Z  
+**Submitted:** 2026-08-26T06:54:12.839Z  
 
 ```py
 t = int(input())
