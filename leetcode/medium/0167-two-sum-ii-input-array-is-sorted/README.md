@@ -54,13 +54,15 @@ Explanation: The sum of -1 and 0 is -1. Therefore index1 = 1, index2 = 2. We ret
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 19.3 MB  
-**Submitted:** 2026-08-26T10:26:57.858Z  
+**Runtime:** 3 ms (beats 79.74%)  
+**Memory:** 20.5 MB (beats 37.51%)  
+**Submitted:** 2026-08-26T10:34:58.750Z  
 
 ```py
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
+        """
+        --- this causes TLE ERROR ,due to time complexity is O(n^2) ---
         a=[0,0]
         for i in range(len(numbers)):
             a[0]=i+1
@@ -68,6 +70,17 @@ class Solution:
                 if numbers[i]+numbers[j]==target:
                     a[1]=j+1
                     return a
+            """
+        l=0
+        r=len(numbers)-1
+        while l<r:
+            total=numbers[l]+numbers[r]
+            if total==target:
+                return[l+1, r+1]
+            elif total < target:#you need a larger sum → move left right.
+                l+=1
+            else:#you need a smaller sum → move right left.
+                r-= 1
 ```
 
 ---
