@@ -85,7 +85,7 @@ The score of the first group is $\max(A_1, A_4) = 6$ while the score of the seco
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T16:04:42.422Z  
+**Submitted:** 2026-08-26T16:04:49.462Z  
 
 ```py
 # cook your dish here
