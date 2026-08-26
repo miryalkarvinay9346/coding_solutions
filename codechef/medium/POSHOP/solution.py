@@ -5,8 +5,8 @@ for _ in range(int(input())):
     a=0
     for i in range(n):
         s=0
-        for j in range(i+1,n)::
-            if c[i]<=c[j]:
+        for j in range(i+1,n):
+            if c[i]<=c[j] and c[j] >= c[i]:
                 k=c[i]+c[j]
                 a=max(k,a)
     print(a)
