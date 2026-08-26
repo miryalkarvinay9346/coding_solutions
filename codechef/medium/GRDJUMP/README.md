@@ -65,7 +65,7 @@ For the given costs, this is optimal.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T16:19:14.595Z  
+**Submitted:** 2026-08-26T16:19:41.580Z  
 
 ```py
 # cook your dish here
