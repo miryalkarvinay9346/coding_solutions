@@ -65,7 +65,7 @@ For the given costs, this is optimal.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T15:54:04.611Z  
+**Submitted:** 2026-08-26T15:56:15.718Z  
 
 ```py
 # cook your dish here
@@ -74,7 +74,9 @@ for _ in range(int(input())):
     if a==b:
         print(r*a)
     else:
-        c=p*a+(q*b)
+        c=0
+        c+=((a//2)+a%2)*p
+        c+=((b//2)+b%2)*q
         print(c)
 ```
 
