@@ -42,8 +42,8 @@ Explanation: In this case, no transactions are done and the max profit = 0.
 
 **Language:** Python  
 **Runtime:** 0 ms  
-**Memory:** 19.2 MB  
-**Submitted:** 2026-08-26T13:13:29.424Z  
+**Memory:** 19.5 MB  
+**Submitted:** 2026-08-26T13:14:31.433Z  
 
 ```py
 class Solution:
@@ -56,9 +56,9 @@ class Solution:
             m=prices[j]-prices[i]
             a=max(m,a)
             if a>m:
-                i+=1
-            else:
                 j-=1
+            else:
+                i+=1
         return a
 
 
