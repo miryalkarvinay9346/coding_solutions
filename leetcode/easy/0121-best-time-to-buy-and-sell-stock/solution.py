@@ -8,8 +8,8 @@ class Solution:
             m=prices[j]-prices[i]
             a=max(m,a)
             if a>m:
-                i+=1
-            else:
                 j-=1
+            else:
+                i+=1
         return a
 
