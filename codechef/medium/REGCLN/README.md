@@ -80,16 +80,12 @@ Today is day $49$. The next deep cleaning will be on day $50$, so the answer is 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T14:37:46.723Z  
+**Submitted:** 2026-08-26T14:36:24.720Z  
 
 ```py
 # cook your dish here
 n=int(input())
-if n%10==0:
-    print(10)
-else:
-    """
-    n+a=
+
 ```
 
 ---
