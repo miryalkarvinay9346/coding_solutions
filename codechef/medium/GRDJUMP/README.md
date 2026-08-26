@@ -65,13 +65,17 @@ For the given costs, this is optimal.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T15:52:02.604Z  
+**Submitted:** 2026-08-26T15:54:29.587Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     a,b,p,q,r=map(int,input().split())
-    
+    if a==b:
+        print(r*a)
+    else:
+        c=p*a+(q*b)
+        print(c)
 ```
 
 ---
