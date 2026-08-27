@@ -4,6 +4,7 @@ for _ in range(int(input())):
     p=list(map(int,input().split()))
     s=0
     a=[]
+    b=p.sort()
     for i in range(n):
         for j in range(n):
             if abs(p[i]-p[j])>=abs(i-j):
@@ -13,4 +14,6 @@ for _ in range(int(input())):
                 s+=1
                 l=[i,j]
                 a.append(l)
+        if p==b:
+            break
     print(a)
