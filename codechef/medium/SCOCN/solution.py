@@ -11,9 +11,9 @@ else:
     m=0
     for i in range(n):
         for j in range(n):
-            if a[i]==a[j]:
+            if a[j]==x:
                 k+=1
                 m=j
-        if k==2:
-            print(m)
-            break
+            if k==2:
+                print(m)
+                break
