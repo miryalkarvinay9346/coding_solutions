@@ -77,7 +77,7 @@ The total weight is `28`, so the minimum number of units required is `3`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T14:09:05.885Z  
+**Submitted:** 2026-08-31T14:08:31.866Z  
 
 ```py
 # cook your dish here
@@ -87,7 +87,7 @@ a=list(map(int,input().split()))
 if 2*sum(a)<20:
     print(-1)
 else:
-    a.sort(reverse=True)
+    a.sort(reverse==True)
     c=0
     
     print(25%10)
