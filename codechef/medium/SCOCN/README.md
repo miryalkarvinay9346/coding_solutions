@@ -118,14 +118,15 @@ Therefore, the output is `1`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T13:33:57.964Z  
+**Submitted:** 2026-08-31T13:35:25.983Z  
 
 ```py
 # cook your dish here
 n=int(input())
 a=list(map(int,input().split()))
 x=int(input())
-
+k=a.count(x)
+print(-1 if k==0 else (-2 if k==1 else ))
 ```
 
 ---
