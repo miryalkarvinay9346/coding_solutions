@@ -6,4 +6,4 @@ a.sort()
 if 2*sum(a)<20:
     print(-1)
 else:
-    pass
+    
