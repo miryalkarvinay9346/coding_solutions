@@ -118,7 +118,7 @@ Therefore, the output is `1`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T13:33:43.037Z  
+**Submitted:** 2026-08-31T13:33:57.964Z  
 
 ```py
 # cook your dish here
