@@ -71,11 +71,10 @@ Therefore, the glass at position $(1,1)$ receives $0.5$ cup, so its fullness is:
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T14:00:01.572Z  
+**Submitted:** 2026-08-31T13:59:09.576Z  
 
 ```py
 # cook your dish here
-p,r,c=map(int,input().split())
 
 ```
 
