@@ -11,10 +11,14 @@ else:
     m=0
     for i in range(n):
         for j in range(n):
-            if a[i]==x:
+            if a[j]==x:
                 k+=1
-                m=j
-        if k==2:
-            print(m)
+            if k==2:
+                print(j)
+                m=1
+                break
+        if m:
             break
-        m=0
+            
+            
+            
