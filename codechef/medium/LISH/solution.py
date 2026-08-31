@@ -8,4 +8,4 @@ else:
     a.sort(reverse==True)
     c=0
     
-    print(25%10)
+    
