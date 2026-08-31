@@ -118,7 +118,7 @@ Therefore, the output is `1`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T13:44:18.970Z  
+**Submitted:** 2026-08-31T13:50:36.969Z  
 
 ```py
 # cook your dish here
@@ -134,12 +134,12 @@ else:
     m=0
     for i in range(n):
         for j in range(n):
-            if a[i]==a[j]:
+            if a[j]==x:
                 k+=1
                 m=j
-        if k==2:
-            print(m)
-            break
+            if k==2:
+                print(m)
+                break
 ```
 
 ---
