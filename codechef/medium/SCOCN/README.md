@@ -118,7 +118,7 @@ Therefore, the output is `1`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T13:43:24.965Z  
+**Submitted:** 2026-08-31T13:39:56.991Z  
 
 ```py
 # cook your dish here
@@ -130,16 +130,8 @@ if x not in a:
 elif a.count(x)==1:
     print(-2)
 else:
-    k=0
-    m=0
     for i in range(n):
-        for j in range(n):
-            if a[i]==a[j]:
-                k+=1
-                m=j
-        if k==2:
-            print(m)
-            break
+        if 
 ```
 
 ---
