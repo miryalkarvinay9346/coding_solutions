@@ -118,14 +118,28 @@ Therefore, the output is `1`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T13:34:03.967Z  
+**Submitted:** 2026-08-31T13:43:13.976Z  
 
 ```py
 # cook your dish here
 n=int(input())
 a=list(map(int,input().split()))
 x=int(input())
-
+if x not in a:
+    print(-1)
+elif a.count(x)==1:
+    print(-2)
+else:
+    k=0
+    m=0
+    for i in range(n):
+        for j in range(n):
+            if a[i]==a[j]:
+                k+=1
+                m=j
+        if k==2:
+            print(m)
+            break
 ```
 
 ---
