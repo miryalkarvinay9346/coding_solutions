@@ -77,7 +77,7 @@ The total weight is `28`, so the minimum number of units required is `3`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T14:08:31.866Z  
+**Submitted:** 2026-08-31T14:07:46.869Z  
 
 ```py
 # cook your dish here
@@ -90,7 +90,7 @@ else:
     a.sort(reverse==True)
     c=0
     
-    print(25%10)
+    
 ```
 
 ---
