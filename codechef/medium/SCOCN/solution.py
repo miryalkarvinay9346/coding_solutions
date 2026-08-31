@@ -7,13 +7,5 @@ if x not in a:
 elif a.count(x)==1:
     print(-2)
 else:
-    k=0
-    m=0
     for i in range(n):
-        for j in range(n):
-            if a[i]==a[j]:
-                k+=1
-                m=j
-        if k==2:
-            print(m)
-            break
+        if 
