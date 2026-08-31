@@ -2,5 +2,10 @@
 n=int(input())
 a=list(map(int,input().split()))
 x=int(input())
-k=a.count(x)
-print(-1 if k==0 else (-2 if k==1 else ))
+if x not in a:
+    print(-1)
+elif a.count(x)==1:
+    print(-2)
+else:
+    for i in range(n):
+        if 
