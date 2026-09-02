@@ -51,7 +51,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T14:53:05.765Z  
+**Submitted:** 2026-09-02T15:51:14.779Z  
 
 ```py
 # cook your dish here
@@ -62,7 +62,7 @@ for _ in range(int(input())):
     i=0 
     j=n-1
     c=0
-    while(i<j):
+    while  (i<=j):# and c<k:
         #c=0
         l=a[i]
         r=a[j]
@@ -72,9 +72,9 @@ for _ in range(int(input())):
         else:
             s=s-l
             i=i+1
-        c+=1
-        if c==k:
-            break
+        #c+=1
+        #if c==k:
+         #   break
     print(s)
         
 ```
