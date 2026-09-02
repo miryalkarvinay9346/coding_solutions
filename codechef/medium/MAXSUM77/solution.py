@@ -4,7 +4,7 @@ for _ in range(int(input())):
     a=list(map(int,input().split()))
     s=sum(a)
     i=0 
-    j=len(a)-1
+    j=n-1
     c=0
     while(i<=j):
         l=a[i]
