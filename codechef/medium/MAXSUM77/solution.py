@@ -7,6 +7,7 @@ for _ in range(int(input())):
     j=n-1
     c=0
     while(i<j):
+        #c=0
         l=a[i]
         r=a[j]
         if l>r:
