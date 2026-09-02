@@ -55,13 +55,12 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T14:33:15.833Z  
+**Submitted:** 2026-09-02T14:32:08.821Z  
 
 ```py
 # cook your dish here
 s=int(input())
-#1+2+3+4=10
-print(10-s)
+
 ```
 
 ---
