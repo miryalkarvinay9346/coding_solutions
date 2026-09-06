@@ -58,22 +58,14 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-06T13:51:26.471Z  
+**Submitted:** 2026-09-06T13:49:12.964Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n=int(input())
     s=input()
-    c=0
-    #c=s.count("00")+s.count("11")
-    for i in range(n-1):
-        if s[i]==s[i-1]:
-            c+=1
-    """
-    c=sum(1 for i in range(n - 1) if s[i] == s[i + 1])
-    print(c)
-    """
+    c=s.count("00")+s.count("11")
     print(c)
 ```
 
