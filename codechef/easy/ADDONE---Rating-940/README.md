@@ -69,13 +69,13 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-06T13:54:43.872Z  
+**Submitted:** 2026-09-06T13:56:41.059Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
-    n=int(input())
-    print(n+1)
+    n=(input())
+    print(str(int(n)+1))
 ```
 
 ---
