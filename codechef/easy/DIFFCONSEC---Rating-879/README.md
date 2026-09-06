@@ -58,16 +58,14 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-06T13:50:17.983Z  
+**Submitted:** 2026-09-06T13:48:42.937Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n=int(input())
     s=input()
-    c=0
-    #c=s.count("00")+s.count("11")
-    
+    c=s.count("00")+s.count("11")
     print(c)
 ```
 
