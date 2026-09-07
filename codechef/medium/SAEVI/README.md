@@ -83,10 +83,12 @@ Therefore, the required sum is `0`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T15:48:15.686Z  
+**Submitted:** 2026-09-07T15:48:56.703Z  
 
 ```py
 # cook your dish here
+n,k=map(int,input().split())
+a=list(map(int,input().split()))
 
 ```
 
