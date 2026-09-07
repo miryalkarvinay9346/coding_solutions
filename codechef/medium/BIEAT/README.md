@@ -73,13 +73,10 @@ Each number has at most $4$ significant bits, so removing $4$ least significant 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T15:56:29.930Z  
+**Submitted:** 2026-09-07T15:55:29.952Z  
 
 ```py
 # cook your dish here
-n=int(input())
-a=list(map(int,input().split()))
-m=int(input())
 
 ```
 
