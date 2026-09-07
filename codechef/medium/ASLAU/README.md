@@ -71,12 +71,12 @@ Since $550 < 600$, the answer is `NO`
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T15:47:06.052Z  
+**Submitted:** 2026-09-07T15:47:30.803Z  
 
 ```py
 # cook your dish here
 a,b,x=map(int,input().split())
-
+print("YES" if a+b>=x else "NO")
 ```
 
 ---
