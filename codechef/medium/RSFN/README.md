@@ -69,13 +69,14 @@ $1+1+2+3+5=12$
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T15:59:43.217Z  
+**Submitted:** 2026-09-07T16:00:19.189Z  
 
 ```py
 # cook your dish here
 n,q=map(int,input().split())
 i=list(map(int,input().split()))
 l,r=map(int,input().split())
+a=[]
 
 ```
 
