@@ -69,15 +69,12 @@ $1+1+2+3+5=12$
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T16:09:59.241Z  
+**Submitted:** 2026-09-07T16:08:54.221Z  
 
 ```py
 # cook your dish here
 n,q=map(int,input().split())
 i=list(map(int,input().split()))
-a=[]
-for i in range(n):
-    a[i]=
 for _ in range(q):
     l,r=map(int,input().split())
     #a=[]
