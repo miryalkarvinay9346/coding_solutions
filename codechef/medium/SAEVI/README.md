@@ -83,13 +83,18 @@ Therefore, the required sum is `0`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T15:49:05.680Z  
+**Submitted:** 2026-09-07T15:52:48.693Z  
 
 ```py
 # cook your dish here
 n,k=map(int,input().split())
 a=list(map(int,input().split()))
-
+s=0
+for i in range(n):
+    if i%2==0 and a[i]>2*k:
+        s+=a[i]
+print(s)
+        
 ```
 
 ---
