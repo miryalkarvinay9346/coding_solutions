@@ -69,14 +69,16 @@ $1+1+2+3+5=12$
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T16:01:02.221Z  
+**Submitted:** 2026-09-07T16:04:50.212Z  
 
 ```py
 # cook your dish here
 n,q=map(int,input().split())
 i=list(map(int,input().split()))
-l,r=map(int,input().split())
-a=[]
+for _ in range(q):
+    l,r=map(int,input().split())
+    a=[]
+    print(sum(i[l-1:r]),i)
 
 ```
 
