@@ -59,9 +59,9 @@ The total time required is `2 + 2 + 0 = 4` seconds.
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 19.3 MB  
-**Submitted:** 2026-09-08T17:38:50.766Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 19.5 MB (beats 5.76%)  
+**Submitted:** 2026-09-08T17:39:00.358Z  
 
 ```py
 class Solution:
