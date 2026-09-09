@@ -65,13 +65,16 @@ It can be verified that there's no way to make a positive profit by the end of t
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T15:04:07.739Z  
+**Submitted:** 2026-09-09T15:06:37.762Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     x,y=map(int,input().split())
-    
+    d=0
+    g=0
+    while (True):
+        if 
 ```
 
 ---
