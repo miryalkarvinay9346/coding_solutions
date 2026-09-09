@@ -77,7 +77,7 @@ It can be shown that this is optimal.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T14:59:21.471Z  
+**Submitted:** 2026-09-09T15:26:00.453Z  
 
 ```py
 # cook your dish here
