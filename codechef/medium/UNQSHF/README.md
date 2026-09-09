@@ -74,7 +74,7 @@ So, no solution exists.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T15:25:32.722Z  
+**Submitted:** 2026-09-09T14:56:10.609Z  
 
 ```py
 # cook your dish here
@@ -82,7 +82,7 @@ for _ in range(int(input())):
     n=int(input())
     a=input()
     b=input()
-    print("YES" if a.count("a")+b.count("a")==len(a) or a.count("b")+b.count("b")==len(b) else "NO")
+    print("YES" if sorted(a)==sorted(b) else "NO")
 ```
 
 ---
