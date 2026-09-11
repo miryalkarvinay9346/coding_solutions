@@ -66,14 +66,14 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-11T16:45:11.327Z  
+**Submitted:** 2026-09-11T16:47:05.115Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n=int(input())
     a,b,c,d=map(int,input().split())
-    
+    print(max(a,b,c,d))
 ```
 
 ---
