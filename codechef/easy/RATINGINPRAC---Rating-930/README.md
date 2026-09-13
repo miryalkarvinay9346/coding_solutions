@@ -62,7 +62,7 @@ No
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-13T17:02:29.021Z  
+**Submitted:** 2026-09-13T17:02:54.578Z  
 
 ```py
 t = int(input())
@@ -74,7 +74,7 @@ while t > 0:
     t -= 1
     c=1
     for i in range(1,n):
-        if d[i-1]>=d[i]:
+        if d[i-1]>d[i]:
             c=0
             break
     if  c>0:
