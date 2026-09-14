@@ -59,12 +59,12 @@ Chef has only $2$ notebooks, so he can prepare at most $2$ gift packs.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-14T13:36:29.239Z  
+**Submitted:** 2026-09-14T13:37:19.399Z  
 
 ```py
 # cook your dish here
 a,b=map(int,input().split())
-
+print(min(a,b))
 ```
 
 ---
