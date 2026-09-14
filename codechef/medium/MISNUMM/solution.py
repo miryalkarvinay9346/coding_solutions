@@ -9,8 +9,10 @@ for i in range(m):
     g=a.count(b[i])
     if o==g:
         continue
-    else:
+    elif g<o:
         d=o-g
         k.append(b[i])
 k.sort()
-print(k)
+k=set(k)
+for i in k:
+    print(i,end=" ")
