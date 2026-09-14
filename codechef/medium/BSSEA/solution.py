@@ -5,5 +5,5 @@ m=(a[0]+a[-1])//2
 if m==a[n//2]:
     print(m)
 else:
-    k=min(n//2,(n//2)-1)
+    k=min(a[n//2+1],a[(n//2)-1])
     print(k)
