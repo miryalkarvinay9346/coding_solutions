@@ -68,7 +68,7 @@ The target person finally completes their service at time  **9**.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-14T16:06:26.616Z  
+**Submitted:** 2026-09-14T16:01:34.778Z  
 
 ```py
 # cook your dish here
@@ -82,11 +82,11 @@ for i  in range(n):
             c=c+t[i]
         else:
             c=c+a
-    elif i>k:
+    else:
         if t[i]<a:
             c=c+t[i]
         else:
-            c=c+a-1
+            c=c+a
 print(c)
 ```
 
