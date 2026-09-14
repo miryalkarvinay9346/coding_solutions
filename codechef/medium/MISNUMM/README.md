@@ -69,7 +69,7 @@ Each of $204$, $205$, and $206$ occurs three times in $B$ but only twice in $A$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-14T15:38:39.024Z  
+**Submitted:** 2026-09-14T15:45:07.006Z  
 
 ```py
 # cook your dish here
@@ -78,7 +78,16 @@ a=list(map(int,input().split()))
 m=int(input())
 b=list(map(int,input().split()))
 k=[]
-
+for i in range(m):
+    o=b.count(b[i])
+    g=a.count(b[i])
+    if o==g:
+        continue
+    else:
+        d=o-g
+        k.append(b[i])
+k.sort()
+print(k)
 ```
 
 ---
