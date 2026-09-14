@@ -68,13 +68,26 @@ The target person finally completes their service at time  **9**.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-14T15:54:27.752Z  
+**Submitted:** 2026-09-14T16:03:41.766Z  
 
 ```py
 # cook your dish here
 n,k=map(int,input().split())
 t=list(map(int,input().split()))
-
+a=t[k]
+c=0
+for i  in range(n):
+    if i<=k:
+        if t[i]<a:
+            c=c+t[i]
+        else:
+            c=c+a
+    elif i>k:
+        if t[i]<a:
+            c=c+t[i]
+        else:
+            c=c+a-1
+print(c)
 ```
 
 ---
