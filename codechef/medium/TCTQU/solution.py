@@ -9,9 +9,9 @@ for i  in range(n):
             c=c+t[i]
         else:
             c=c+a
-    else:
+    elif i>k:
         if t[i]<a:
             c=c+t[i]
         else:
-            c=c+a
+            c=c+a-1
 print(c)
