@@ -68,7 +68,7 @@ The target person finally completes their service at time  **9**.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-14T15:55:02.749Z  
+**Submitted:** 2026-09-14T15:54:27.752Z  
 
 ```py
 # cook your dish here
