@@ -11,7 +11,6 @@ for i in range(m):
         continue
     else:
         d=o-g
-        for _ in range(d):
-            k.append(b[i])
+        k.append(b[i])
 k.sort()
 print(k)
