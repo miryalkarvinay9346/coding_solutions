@@ -41,9 +41,9 @@ Explanation: There are no strings that contain "code" as a prefix.
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 19.2 MB  
-**Submitted:** 2026-09-15T14:44:07.222Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 19.1 MB (beats 96.02%)  
+**Submitted:** 2026-09-15T14:44:12.072Z  
 
 ```py
 class Solution:
