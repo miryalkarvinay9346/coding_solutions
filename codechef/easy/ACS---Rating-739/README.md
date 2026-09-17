@@ -62,14 +62,14 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-17T13:19:05.826Z  
+**Submitted:** 2026-09-17T13:20:12.815Z  
 
 ```py
 # cook your dish here
 # cook your dish here
 for _ in range(int(input())):
     a=int(input())
-    if a//100+a%100<=10:
+    if (a//100)+(a%100)<=10:
         print((a//100)+a%10)
     else:
         print(-1)
