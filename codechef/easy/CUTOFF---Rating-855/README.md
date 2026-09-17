@@ -58,7 +58,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-17T13:36:03.308Z  
+**Submitted:** 2026-09-17T13:36:06.300Z  
 
 ```py
 t = int(input())
