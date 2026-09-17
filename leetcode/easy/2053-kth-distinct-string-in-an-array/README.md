@@ -56,9 +56,9 @@ The only distinct string is "b". Since there are fewer than 3 distinct strings, 
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 19.2 MB  
-**Submitted:** 2026-09-17T14:30:16.181Z  
+**Runtime:** 235 ms (beats 5.07%)  
+**Memory:** 19.4 MB (beats 37.00%)  
+**Submitted:** 2026-09-17T14:31:11.051Z  
 
 ```py
 class Solution:
@@ -69,12 +69,13 @@ class Solution:
             if v==1:
                 if v not in a:
                     a.append(arr[i])
-        """if k<len(a):
+        if k<=len(a):
             return a[k-1]
         else:
             return ""
-            """
+        """
         return a
+        """
 
 ```
 
