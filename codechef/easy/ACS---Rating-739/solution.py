@@ -3,6 +3,6 @@
 for _ in range(int(input())):
     a=int(input())
     if (a//100)+(a%100)<=10:
-        print((a//100)+a%10)
+        print((a//100)+a%100)
     else:
         print(-1)
