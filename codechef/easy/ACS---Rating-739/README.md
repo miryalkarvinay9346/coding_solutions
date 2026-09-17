@@ -62,7 +62,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-17T13:19:57.391Z  
+**Submitted:** 2026-09-17T13:20:32.541Z  
 
 ```py
 # cook your dish here
@@ -70,7 +70,7 @@ Output
 for _ in range(int(input())):
     a=int(input())
     if (a//100)+(a%100)<=10:
-        print((a//100)+a%10)
+        print((a//100)+a%100)
     else:
         print(-1)
 ```
