@@ -1,4 +1,4 @@
-a,b = map(int,input().split())
-
-# write your code here
-print(abs((a+b)-(a*b)))
+# cook your dish here
+n,s=map(str,input().split())
+n=int(n)
+print("Eligible" if n>=18 and s=="India" else "Not Eligible")
