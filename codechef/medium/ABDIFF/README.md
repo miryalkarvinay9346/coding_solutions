@@ -64,14 +64,13 @@ The difference between these values is $1$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-19T17:05:32.442Z  
+**Submitted:** 2026-09-19T17:04:12.393Z  
 
 ```py
-a,b = map(int,input().split())
-
-# write your code here
-print(abs((a+b)-(a*b)))
-
+# cook your dish here
+n,s=map(str,input().split())
+n=int(n)
+print("Eligible" if n>=18 and s=="India" else "Not Eligible")
 ```
 
 ---
