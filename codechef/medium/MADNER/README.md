@@ -73,7 +73,7 @@ xyyyx
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T13:50:42.916Z  
+**Submitted:** 2026-09-21T13:51:51.009Z  
 
 ```py
 class Solution:
@@ -88,7 +88,7 @@ class Solution:
                 c+=1
             else:
                 c=0
-                k=students[i]
+                #k=students[i]
             if c==1:
                 m+=1
                 i=i+2
