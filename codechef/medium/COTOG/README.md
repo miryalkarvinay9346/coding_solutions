@@ -68,13 +68,10 @@ The seat pairs already contain couples $(3,2)$ and $(0,1)$. No swaps are needed.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T14:08:11.872Z  
+**Submitted:** 2026-09-21T14:04:43.861Z  
 
 ```py
 # cook your dish here
-n=int(input())
-a=list(map(int,input().split()))
-
 
 ```
 
