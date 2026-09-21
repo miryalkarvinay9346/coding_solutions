@@ -73,7 +73,7 @@ xyyyx
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T13:40:22.936Z  
+**Submitted:** 2026-09-21T13:42:22.901Z  
 
 ```py
 class Solution:
