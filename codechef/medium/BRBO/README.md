@@ -91,12 +91,13 @@ $5+5=10$
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T14:13:18.418Z  
+**Submitted:** 2026-09-21T14:13:47.401Z  
 
 ```py
 # cook your dish here
 n=int(input())
 a=list(map(int,input().split()))
+c=0
 
 ```
 
