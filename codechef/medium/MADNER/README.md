@@ -73,7 +73,7 @@ xyyyx
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T13:51:51.009Z  
+**Submitted:** 2026-09-21T13:56:34.082Z  
 
 ```py
 class Solution:
@@ -81,17 +81,22 @@ class Solution:
         # write your code here
         m=0
         c=0
+        j=0
         #k=students[0]
         for i in range(len(students)-1):
+            if j==1:#for skipping iteration 
+                j=0
+                continue
             k=students[i]
             if (k=="x" and students[i+1]=="y") or (k=="y" and students[i+1]=="x") :
-                c+=1
+                c=1
             else:
                 c=0
                 #k=students[i]
             if c==1:
                 m+=1
                 i=i+2
+                j=1
         return m
 ```
 
