@@ -10,7 +10,7 @@ class Solution:
                 c+=1
             else:
                 c=0
-                k=students[i]
+                #k=students[i]
             if c==1:
                 m+=1
                 i=i+2
