@@ -68,11 +68,20 @@ The seat pairs already contain couples $(3,2)$ and $(0,1)$. No swaps are needed.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T14:04:43.861Z  
+**Submitted:** 2026-09-21T14:12:11.883Z  
 
 ```py
 # cook your dish here
-
+n=int(input())
+a=list(map(int,input().split()))
+c=0
+for i in range(n-1):
+    k=0
+    if (a[i]==2*i-2 and a[i+1]==2*i) or (a[i]==2*n and a[i+1]==2*i-2):
+        continue
+    else:
+        c+=1
+print(c)
 ```
 
 ---
