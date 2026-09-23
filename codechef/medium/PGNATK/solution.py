@@ -2,9 +2,10 @@
 for _ in range(int(input())):
     n,k=map(int,input().split())
     c=0
-    for i in range(1,max(n,k*n)):
-        if i==i*k:
+    for i in range(1,k*n):
+        if k%i==0:
             c+=1
+            print(i*k)
         else:
             c+=1
             n=n-1
