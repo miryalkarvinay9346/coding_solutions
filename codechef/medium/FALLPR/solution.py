@@ -11,7 +11,7 @@ for _ in range(int(input())):
     s=sum(a)
     c=0
     for i in range(n):
-        if s-a[i]>=0:
+        if s+a[i]>=0:
             c=1
             break
     print("YES" if c else "NO")
