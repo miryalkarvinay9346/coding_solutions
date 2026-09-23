@@ -70,7 +70,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T04:55:36.749Z  
+**Submitted:** 2026-09-23T04:56:29.345Z  
 
 ```py
 def findPeaks(A: list[int], n: int) -> list[int]:
