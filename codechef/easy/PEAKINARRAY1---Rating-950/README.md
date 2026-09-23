@@ -70,7 +70,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T04:47:39.466Z  
+**Submitted:** 2026-09-23T04:49:00.078Z  
 
 ```py
 def findPeaks(A: list[int], n: int) -> list[int]:
@@ -80,13 +80,13 @@ def findPeaks(A: list[int], n: int) -> list[int]:
     p=A[0]
     for i in range(len(A)):
         if i==0:
-            if p>A[i+1]:
-                a.append(p)
+            if A[i]>A[i+1]:
+                a.append(A[i])
         elif i==len(A)-1:
             if A[i]>A[i-1]:
                 a.append(A[i])
         else:
-            if A[i]>A[i-1] and i<len(A) and A[i]>A[i+1] :
+            if A[i]>A[i-1]  and A[i]>A[i+1] :
                 a.append(A[i])
     return a if len(a)>0 else -1
 ```
