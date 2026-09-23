@@ -11,4 +11,6 @@ def findPeaks(A: list[int], n: int) -> list[int]:
         else:
             if A[i]>A[i-1]  and A[i]>A[i+1] :
                 a.append(A[i])
-    return a if len(a)>0 else -1
+    if not a:
+        return [-1]
+    return a #if len(a)>0 else -1
