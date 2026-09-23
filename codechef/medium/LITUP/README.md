@@ -76,7 +76,7 @@ $5$ is the minimum cost needed to achieve this.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T15:10:57.468Z  
+**Submitted:** 2026-09-23T15:11:40.476Z  
 
 ```py
 # cook your dish here
