@@ -3,8 +3,14 @@ for _ in range(int(input())):
     n,k=map(int,input().split())
     c=0
     for i in range(1,max(n,k*n)):
-        if n==i*k:
+        if i%k==0:
             c+=1
-        elif n
+            #print(i*k)
+        else:
+            c+=1
+            n=n-1
+        if n==0 :
+            print(c)
+            break
         
         
