@@ -76,12 +76,13 @@ $5$ is the minimum cost needed to achieve this.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T15:10:21.477Z  
+**Submitted:** 2026-09-23T15:10:45.488Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n,k=map(int,input().split())
+    c=list(map(int,input().split()))
     
 ```
 
