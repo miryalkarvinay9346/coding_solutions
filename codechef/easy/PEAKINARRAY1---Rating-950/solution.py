@@ -1,8 +1,6 @@
 def findPeaks(A: list[int], n: int) -> list[int]:
     # write your code here 
     a=[]
-    c=1
-    p=A[0]
     for i in range(len(A)):
         if i==0:
             if A[i]>A[i+1]:
