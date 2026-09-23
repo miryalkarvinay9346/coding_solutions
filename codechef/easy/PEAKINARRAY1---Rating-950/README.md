@@ -70,14 +70,12 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T04:49:32.838Z  
+**Submitted:** 2026-09-23T04:50:38.465Z  
 
 ```py
 def findPeaks(A: list[int], n: int) -> list[int]:
     # write your code here 
     a=[]
-    c=1
-    p=A[0]
     for i in range(len(A)):
         if i==0:
             if A[i]>A[i+1]:
