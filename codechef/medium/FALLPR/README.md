@@ -77,7 +77,7 @@ Thus, it's impossible to make the array  *good*  after a single deletion.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T15:41:49.012Z  
+**Submitted:** 2026-09-23T15:27:09.598Z  
 
 ```py
 # cook your dish here
@@ -93,7 +93,7 @@ for _ in range(int(input())):
     s=sum(a)
     c=0
     for i in range(n):
-        if s+a[i]>=0:
+        if s-a[i]>=0:
             c=1
             break
     print("YES" if c else "NO")
