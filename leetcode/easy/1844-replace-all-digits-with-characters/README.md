@@ -52,9 +52,9 @@ Explanation: The digits are replaced as follows:
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 19.5 MB  
-**Submitted:** 2026-09-23T04:26:16.529Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 19.3 MB (beats 24.89%)  
+**Submitted:** 2026-09-23T04:26:22.787Z  
 
 ```py
 class Solution:
