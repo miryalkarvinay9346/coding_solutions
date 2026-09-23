@@ -77,14 +77,15 @@ Thus, it's impossible to make the array  *good*  after a single deletion.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T15:19:09.575Z  
+**Submitted:** 2026-09-23T15:19:49.579Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n=int(input())
     a=list(map(int,input().split()))
-    
+    cn=0
+    cp=0
 ```
 
 ---
