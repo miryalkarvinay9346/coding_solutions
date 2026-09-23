@@ -8,13 +8,14 @@ for _ in range(int(input())):
             if (i+1)-k>1:
                 continue
             if (j+1)+k<n:
-                #print("J")
+                print("J")
                 continue
-            if (j+1)-k>i+1+k+1:
-                #print("K")
-                continue
+            else:
+                if (j+1)+k>i+1-k+1:
+                    print("K")
+                    continue
             a=min(a,c[i]+c[j])
-    if a>=100*100:
+    if a==100*100:
         print(-1)
     else:
         print(a)
