@@ -77,23 +77,18 @@ Thus, it's impossible to make the array  *good*  after a single deletion.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T15:33:35.576Z  
+**Submitted:** 2026-09-23T16:20:21.573Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n=int(input())
     a=list(map(int,input().split()))
-    cn=0
-    cp=0
-    """
-    if sum(a)>=0:
-        #print("YES")
-    else:"""
-    s=sum(a)
     c=0
     for i in range(n):
-        if s+a[i]>=0:
+        if sum(a[:i])+sum(a[i+1:])>=0:
+            continue
+        else:
             c=1
             break
     print("YES" if c else "NO")
