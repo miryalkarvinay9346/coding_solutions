@@ -77,7 +77,7 @@ Thus, it's impossible to make the array  *good*  after a single deletion.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T15:23:28.582Z  
+**Submitted:** 2026-09-23T15:23:39.599Z  
 
 ```py
 # cook your dish here
