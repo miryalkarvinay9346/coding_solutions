@@ -82,18 +82,15 @@ Here, `K = 2`, and the first two elements are `0 1`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-27T09:35:02.348Z  
+**Submitted:** 2026-09-27T09:31:03.097Z  
 
 ```py
 def remove_duplicates(nums):
    # write your function here...
-    k=1
-    for i in range(1,len(nums)):
-        if nums[i]!=nums[i-1]:
-            nums[k]=nums[i]
-            k+=1
-            
-    return k
+   k=list(set(nums))
+   nums[:len(k)]=k[:len(k)]
+   return (len(k))
+   #print(k)
 ```
 
 ---
