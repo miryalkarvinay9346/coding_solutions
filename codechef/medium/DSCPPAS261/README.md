@@ -85,27 +85,16 @@ There are 2 1's present in both of the arrays so the answer is `1 1`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-27T09:47:27.181Z  
+**Submitted:** 2026-09-27T09:43:56.203Z  
 
 ```py
 class Solution:
     def intersect(self, nums1, nums2):
-        nums1.sort()
-        nums2.sort()
-        i=0
-        j=0
-        result=[]
-        while i<len(nums1) and j<len(nums2):
-            if nums1[i]==nums2[j]:
-                result.append(nums1[i])
-                i+=1
-                j+=1
-            elif nums1[i]<nums2[j]:
-                i+=1
-            else:
-                j+=1
-        return result
-
+        # write your code here 
+        a=list(set(nums1) & set(nums2))
+        a.sort()
+        return a
+        
 ```
 
 ---
