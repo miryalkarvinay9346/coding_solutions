@@ -85,14 +85,14 @@ There are 2 1's present in both of the arrays so the answer is `1 1`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-27T09:42:39.282Z  
+**Submitted:** 2026-09-27T09:43:33.283Z  
 
 ```py
 class Solution:
     def intersect(self, nums1, nums2):
         # write your code here 
         a=list(set(nums1) & set(nums2))
-        a.sort
+        a.sort()
         return a
         
 ```
