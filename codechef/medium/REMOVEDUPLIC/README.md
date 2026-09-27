@@ -82,7 +82,7 @@ Here, `K = 2`, and the first two elements are `0 1`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-27T09:31:03.097Z  
+**Submitted:** 2026-09-27T09:31:12.311Z  
 
 ```py
 def remove_duplicates(nums):
