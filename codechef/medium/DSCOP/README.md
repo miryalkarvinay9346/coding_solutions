@@ -83,11 +83,13 @@ Therefore, the minimum possible price is $321$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-28T14:06:31.063Z  
+**Submitted:** 2026-09-28T14:07:32.054Z  
 
 ```py
 # cook your dish here
-
+for _ in range(int(input())):
+    n=int(input())
+    
 ```
 
 ---
