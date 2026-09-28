@@ -4,5 +4,5 @@ h=list(map(int,input().split()))
 c=0
 k=min(h)
 for i in h:
-    c+=min(abs(i-k),i)
+    c+=abs(i-k)
 print(c)
