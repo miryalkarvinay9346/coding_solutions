@@ -83,7 +83,7 @@ Therefore, the minimum possible price is $321$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-28T14:08:39.181Z  
+**Submitted:** 2026-09-28T14:07:44.060Z  
 
 ```py
 # cook your dish here
