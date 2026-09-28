@@ -59,13 +59,12 @@ Chef earns no marks and loses $5 \times 2=10$ marks. His final score is $-10$, w
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-28T14:01:53.404Z  
+**Submitted:** 2026-09-28T14:00:39.677Z  
 
 ```py
 # cook your dish here
 c,m,w,p,r=map(int,input().split())
-t=c*m-w*p
-print("YES" if t>=r else "NO")
+
 ```
 
 ---
