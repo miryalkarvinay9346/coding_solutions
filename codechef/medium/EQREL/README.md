@@ -82,7 +82,7 @@ Therefore, no energy is required.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-28T14:10:48.687Z  
+**Submitted:** 2026-09-28T14:09:30.335Z  
 
 ```py
 # cook your dish here
@@ -91,7 +91,7 @@ h=list(map(int,input().split()))
 c=0
 k=min(h)
 for i in h:
-    c+=min(abs(i-k),i)
+    c+=abs(i-k)
 print(c)
 ```
 
