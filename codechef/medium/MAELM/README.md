@@ -86,16 +86,11 @@ Therefore, all elements of $B$ cannot be matched, and the answer is `FALSE`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-28T14:16:12.821Z  
+**Submitted:** 2026-09-28T14:14:19.831Z  
 
 ```py
 # cook your dish here
-n=int(input())
-m=int(input())
-a=[][]
-b=[][]
-for i in range(n):
-    
+
 ```
 
 ---
