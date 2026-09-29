@@ -86,7 +86,7 @@ Therefore, all elements of $B$ cannot be matched, and the answer is `FALSE`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-28T14:13:42.834Z  
+**Submitted:** 2026-09-28T14:13:08.830Z  
 
 ```py
 # cook your dish here
