@@ -3,7 +3,8 @@ for _ in range(int(input())):
     n=int(input())
     a=list(map(int,input().split()))
     c=0
-    for i in range(2,n):
+    for i in range(2,n+1):
         if a[i]-a[i-1]==1:
             c+=1
-    print(n-c)
+    if c==n:
+        print
