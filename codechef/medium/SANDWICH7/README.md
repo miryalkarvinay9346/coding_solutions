@@ -57,12 +57,14 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T14:35:02.110Z  
+**Submitted:** 2026-09-30T14:37:20.108Z  
 
 ```py
 # cook your dish here
 b,h,c=map(int,input().split())
-
+a=b//2
+if h<a:
+    print(h)
 ```
 
 ---
