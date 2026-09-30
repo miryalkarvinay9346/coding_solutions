@@ -57,21 +57,13 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T14:46:37.095Z  
+**Submitted:** 2026-09-30T14:50:35.101Z  
 
 ```py
 # cook your dish here
 b,h,c=map(int,input().split())
 a=b//2
-if h+c<=a:
-    print(h+c)
-else:
-    if h==a:
-        print(h)
-    elif c==a:
-        print(c)
-    else:
-        
+print(min(a,h+c))
 ```
 
 ---
