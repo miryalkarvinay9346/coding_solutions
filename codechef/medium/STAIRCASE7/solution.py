@@ -3,10 +3,12 @@ for _ in range(int(input())):
     n=int(input())
     a=list(map(int,input().split()))
     c=0
+    b={}
     for i in range(n):
-        k=0
-        for j in range(n):
-            if a[j]-j==a[i]-i:
-                k+=1
-        c=max(c,k)
+        k=a[i]-i
+        if a[i]-i in b:
+            b[k]+=1
+        else:
+            b[k]=1
+        c=max(c,b[k])
     print(n-c)
