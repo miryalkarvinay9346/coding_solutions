@@ -48,13 +48,16 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-05T14:07:10.204Z  
+**Submitted:** 2026-10-05T14:10:39.226Z  
 
 ```py
 def main():
     # Write your code here
     for _ in range(int(input())):
         n=int(input())
+        c=0
+        while True:
+            
         
 
 if __name__ == "__main__":
