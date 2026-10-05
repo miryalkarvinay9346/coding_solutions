@@ -48,7 +48,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-05T15:29:05.199Z  
+**Submitted:** 2026-10-05T14:19:25.231Z  
 
 ```py
 def main():
@@ -56,14 +56,8 @@ def main():
     for _ in range(int(input())):
         n=int(input())
         c=0
-        k=n
-        i=1
-        while k>0 :
-            if k<=i:
-                c+=1
-                k=k-i
-                i+=1
-        print(c)
+        while True:
+            
         
 
 if __name__ == "__main__":
