@@ -1,6 +1,8 @@
 def main():
     # Write your code here
-    print("HI")
+    for _ in range(int(input())):
+        n=int(input())
+        
 
 if __name__ == "__main__":
     main()
