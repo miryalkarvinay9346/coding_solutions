@@ -48,7 +48,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-05T14:04:20.226Z  
+**Submitted:** 2026-10-05T14:03:43.207Z  
 
 ```py
 def main():
