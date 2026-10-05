@@ -52,14 +52,14 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-05T14:01:32.750Z  
+**Submitted:** 2026-10-05T14:02:10.501Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n=int(input())
     a=list(map(int,input().split()))
-    
+    print(sum(a)-min(a))
 ```
 
 ---
