@@ -87,14 +87,10 @@ $6+8+9=23$
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-05T14:16:06.660Z  
+**Submitted:** 2026-10-05T14:12:31.659Z  
 
 ```py
 # cook your dish here
-n,m=map(int,input().split())
-a=list(map(int,input().split()))
-b=list(map(int,input().split()))
-c=list(map(int,input().split()))
 
 ```
 
