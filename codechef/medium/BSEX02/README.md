@@ -48,12 +48,14 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-05T14:05:15.217Z  
+**Submitted:** 2026-10-05T14:07:10.204Z  
 
 ```py
 def main():
     # Write your code here
-    print("HI")
+    for _ in range(int(input())):
+        n=int(input())
+        
 
 if __name__ == "__main__":
     main()
