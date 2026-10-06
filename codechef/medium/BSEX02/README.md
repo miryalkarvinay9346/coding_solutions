@@ -48,18 +48,24 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-05T15:35:59.280Z  
+**Submitted:** 2026-10-05T15:29:35.201Z  
 
 ```py
-import math
 def main():
     # Write your code here
     for _ in range(int(input())):
         n=int(input())
         c=0
-        k=int((-1+math.sqrt(1+8*n))//2)
-        print(k)
+        k=n
+        i=1
+        while k>0 :
+            if k<=i:
+                c+=1
+                k=k-i
+                i+=1
+        print(c)
         
+
 if __name__ == "__main__":
     main()
 
