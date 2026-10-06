@@ -50,13 +50,13 @@ Then we apply the operation on `s[1]`, and `s` becomes `""`.
 
 **Language:** Python  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 19.4 MB (beats 6.70%)  
-**Submitted:** 2026-10-06T17:21:32.374Z  
+**Memory:** 19.3 MB (beats 29.94%)  
+**Submitted:** 2026-10-06T17:21:48.187Z  
 
 ```py
 class Solution:
     def clearDigits(self, s: str) -> str:
-        """
+        
         stack = []
         for ch in s:
             if ch.isdigit():
@@ -75,7 +75,7 @@ class Solution:
             else:
                 i += 1
         return ''.join(s)
-        
+        """
 
 ```
 
