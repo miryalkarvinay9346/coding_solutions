@@ -80,7 +80,7 @@ YES
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T15:01:40.749Z  
+**Submitted:** 2026-10-07T15:05:15.768Z  
 
 ```py
 # cook your dish here
@@ -88,6 +88,8 @@ for _ in range(int(input())):
     n=int(input())
     s=input()
     # U D L R
+    if s.count("U")==s.count("D") and s.count("L")==s.count("R"):
+        print("NO")
     
 ```
 
