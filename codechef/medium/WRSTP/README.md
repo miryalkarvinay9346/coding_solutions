@@ -80,12 +80,14 @@ YES
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T14:59:33.747Z  
+**Submitted:** 2026-10-07T15:01:01.752Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n=int(input())
+    s=input()
+    # U D L R
     
 ```
 
