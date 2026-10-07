@@ -62,7 +62,7 @@ abcdefghijklmnopqrstuvwxyz
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T14:55:56.206Z  
+**Submitted:** 2026-10-07T14:53:01.194Z  
 
 ```py
 # cook your dish here
@@ -70,14 +70,7 @@ for _ in range(int(input())):
     n,m=map(int,input().split())
     s=input()
     l=input()
-    cl=0
-    cr=0
-    for i in range(n):
-        if s[i] in l :
-            cl=cl+1
-        else:
-            cr+=1
-    print(max(cl,cr))
+    
 ```
 
 ---
