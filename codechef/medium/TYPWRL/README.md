@@ -62,7 +62,7 @@ abcdefghijklmnopqrstuvwxyz
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T14:53:48.209Z  
+**Submitted:** 2026-10-07T14:55:03.200Z  
 
 ```py
 # cook your dish here
@@ -72,7 +72,12 @@ for _ in range(int(input())):
     l=input()
     cl=0
     cr=0
-    for i in range()
+    for i in range(m):
+        if s[i] in l :
+            cl=cl+1
+        else:
+            cr+=1
+    print(max(cl,cr))
 ```
 
 ---
