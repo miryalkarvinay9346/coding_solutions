@@ -80,7 +80,7 @@ YES
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T15:00:53.735Z  
+**Submitted:** 2026-10-07T15:03:17.739Z  
 
 ```py
 # cook your dish here
@@ -88,7 +88,7 @@ for _ in range(int(input())):
     n=int(input())
     s=input()
     # U D L R
-    
+    if s.count()
 ```
 
 ---
