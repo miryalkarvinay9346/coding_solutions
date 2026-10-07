@@ -5,7 +5,7 @@ for _ in range(int(input())):
     l=input()
     cl=0
     cr=0
-    for i in range(m):
+    for i in range(n):
         if s[i] in l :
             cl=cl+1
         else:
