@@ -72,7 +72,7 @@ NO
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T15:21:19.702Z  
+**Submitted:** 2026-10-07T15:42:20.786Z  
 
 ```py
 # cook your dish here
@@ -80,7 +80,7 @@ for _ in range(int(input())):
     n=int(input())
     a=input()
     b=input()
-    if a.count("0")==b.count("0") and a.count("1")==b.count("1"):
+    if a.count("1")%2==b.count("1")%2  :#:and a.count("1")==b.count("1"):
         print("YES")
     else:
         print("NO")
