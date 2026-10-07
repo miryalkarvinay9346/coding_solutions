@@ -62,7 +62,7 @@ abcdefghijklmnopqrstuvwxyz
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T14:58:03.477Z  
+**Submitted:** 2026-10-07T14:58:40.180Z  
 
 ```py
 # cook your dish here
@@ -80,7 +80,7 @@ for _ in range(int(input())):
         else:
             cr+=1
             cl=0
-        k=max(cl,cr)
+        k=max(cl,k,cr)
     print(k)
 ```
 
