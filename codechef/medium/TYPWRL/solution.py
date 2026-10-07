@@ -13,5 +13,5 @@ for _ in range(int(input())):
         else:
             cr+=1
             cl=0
-        k=max(cl,cr)
+        k=max(cl,k,cr)
     print(k)
