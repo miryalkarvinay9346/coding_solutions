@@ -63,7 +63,7 @@ For the third test case, Chef buys only the most expensive item, which costs $11
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-12T13:49:28.791Z  
+**Submitted:** 2026-10-12T13:49:43.790Z  
 
 ```py
 # cook your dish here
