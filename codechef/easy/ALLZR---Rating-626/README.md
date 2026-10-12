@@ -72,7 +72,7 @@ For instance, if we perform an operation of type $1$ three times, $A$ will becom
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-12T11:52:59.896Z  
+**Submitted:** 2026-10-12T11:54:01.023Z  
 
 ```py
 # cook your dish here
