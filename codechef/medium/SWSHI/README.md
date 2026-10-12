@@ -76,13 +76,16 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-12T14:00:31.734Z  
+**Submitted:** 2026-10-12T14:03:57.735Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n,m=map(int,input().split())
     a=list(map(int,input().split()))
+    if min(a)<m:
+        print(0)
+        continue
     
 ```
 
