@@ -5,5 +5,4 @@ for _ in range(int(input())):
     if min(a)<m:
         print(0)
         continue
-    c=0
     
