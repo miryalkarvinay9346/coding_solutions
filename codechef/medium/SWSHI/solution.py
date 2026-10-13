@@ -6,6 +6,4 @@ for _ in range(int(input())):
         print(0)
         continue
     c=0
-    i=0
-    while i<n:
-        
+    
