@@ -76,7 +76,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-12T14:06:08.719Z  
+**Submitted:** 2026-10-12T14:04:12.720Z  
 
 ```py
 # cook your dish here
@@ -87,9 +87,7 @@ for _ in range(int(input())):
         print(0)
         continue
     c=0
-    i=0
-    while i<n:
-        
+    
 ```
 
 ---
