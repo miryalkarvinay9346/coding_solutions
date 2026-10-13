@@ -76,7 +76,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-12T14:01:59.726Z  
+**Submitted:** 2026-10-12T14:06:08.719Z  
 
 ```py
 # cook your dish here
@@ -86,7 +86,10 @@ for _ in range(int(input())):
     if min(a)<m:
         print(0)
         continue
-    
+    c=0
+    i=0
+    while i<n:
+        
 ```
 
 ---
