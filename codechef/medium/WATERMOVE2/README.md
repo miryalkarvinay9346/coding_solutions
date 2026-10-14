@@ -58,18 +58,14 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T15:04:55.515Z  
+**Submitted:** 2026-10-14T15:03:50.499Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n,k=map(int,input().split())
     a=list(map(int,input().split()))
-    a.sort(reverse=True)
-    if k>n:
-        print(sum(a))
-    else:
-        
+    
 ```
 
 ---
