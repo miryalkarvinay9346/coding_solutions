@@ -53,18 +53,13 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T15:25:52.613Z  
+**Submitted:** 2026-10-14T15:06:46.908Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n=int(input())
     a=list(map(int,input().split()))
-    a.sort()
-    print(min(a[-2]-min(a),max(a)-a[1]))
-    """
-    min(second_max(a)-min(a),max(a)-second_min(a))
-    """
     
 ```
 
