@@ -54,16 +54,21 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T15:28:53.040Z  
+**Submitted:** 2026-10-14T15:31:22.029Z  
 
 ```py
 # cook your dish here
 import math
-def g(a,b):
+def g(a,b)->int:
     return math.gcd(a,b)
 for _ in range(int(input())):
     n=int(input())
-    
+    c=0
+    for i in range(1,n+1):
+        for j in range(i,n+1):
+            if g(i,j)==abs(i-j):
+                c+=1
+    print(c)
 ```
 
 ---
