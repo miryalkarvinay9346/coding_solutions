@@ -63,7 +63,7 @@ At the end, the array is $[0, 5, 0, 5, 5]$, and the maximum is $5$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T15:26:12.729Z  
+**Submitted:** 2026-10-14T15:17:53.759Z  
 
 ```py
 # cook your dish here()
