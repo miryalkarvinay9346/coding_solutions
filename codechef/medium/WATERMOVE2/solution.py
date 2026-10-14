@@ -6,4 +6,4 @@ for _ in range(int(input())):
     if k>n:
         print(sum(a))
     else:
-        print(sum(a[:k+1]))
+        
