@@ -1,3 +1,3 @@
 # cook your dish here
 x,y=map(int,input().split())
-print(abs(x-y)-2)
+print(max(abs(x-y)-1,0))
