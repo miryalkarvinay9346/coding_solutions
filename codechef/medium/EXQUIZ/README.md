@@ -57,11 +57,12 @@ Test case $4$: Since the final score is $0$, all questions can be skipped.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-21T14:56:25.295Z  
+**Submitted:** 2026-10-21T14:56:59.306Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
+    n,s=map(int,input().split())
     
 ```
 
