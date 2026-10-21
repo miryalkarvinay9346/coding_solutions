@@ -57,7 +57,7 @@ Test case $4$: Since the final score is $0$, all questions can be skipped.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-21T14:57:52.298Z  
+**Submitted:** 2026-10-21T14:58:14.301Z  
 
 ```py
 # cook your dish here
