@@ -61,14 +61,24 @@ Test case $1$: Inviting the groups with $1$ and $2$ people gives $3$ people and 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-21T14:49:59.512Z  
+**Submitted:** 2026-10-21T14:54:02.031Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n,m=map(int,input().split())
     a=list(map(int,input().split()))
-    
+    c=0
+    a.sort()
+    k=0
+    for i in range(n):
+        k=k+a[i]
+        s=k*(k-1)//2#handshake
+        if s<=m:
+            c=i+1
+        else:
+            break
+    print(c)
 ```
 
 ---
