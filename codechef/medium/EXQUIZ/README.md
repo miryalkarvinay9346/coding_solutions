@@ -57,27 +57,13 @@ Test case $4$: Since the final score is $0$, all questions can be skipped.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-21T15:07:34.309Z  
+**Submitted:** 2026-10-21T14:56:49.302Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n,s=map(int,input().split())
-    if s<=0:
-        if -s<=n:
-            if s==0:
-                print(0)
-            else:
-                print(-s)
-        else:
-            print(0)
-        continue
-    k=(s+3)//4
-    c=(n+s)//5
-    if k>c:
-        print(-1)
-    else:
-        print(5*k-s)
+    
 ```
 
 ---
