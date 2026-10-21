@@ -85,7 +85,7 @@ Total bill = `7500 + 0 = 7500`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-21T05:09:18.730Z  
+**Submitted:** 2026-10-21T05:09:23.870Z  
 
 ```py
 def calculateHotelBill(N, R, E):
