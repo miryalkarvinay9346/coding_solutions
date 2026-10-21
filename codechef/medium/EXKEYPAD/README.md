@@ -53,15 +53,20 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-21T15:11:25.739Z  
+**Submitted:** 2026-10-21T15:19:39.735Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n,d=map(int,input().split())
-    c=0
+    c=n
     s=len(str(n))+1
-    
+    while True:
+        if str(d) not in str(c):
+            print(c)
+            break
+        else:
+            c=c+1
 ```
 
 ---
