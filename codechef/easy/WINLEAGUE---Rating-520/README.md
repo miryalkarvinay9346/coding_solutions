@@ -97,16 +97,26 @@ Both teams have equal points, so the league ends in a draw.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-23T06:47:09.760Z  
+**Submitted:** 2026-10-23T06:49:03.102Z  
 
 ```py
 def findLeagueWinner(A, M):
     # write your code here 
+    """
     if A==M:
         return "DRAW"
     if A>M:
         return "TEAM A"
     return "TEAM B"
+    """
+    if A > M:
+        return "TEAM A"
+    elif M > A:
+        return "TEAM M"
+    else:
+        return "DRAW"
+        
+    
 ```
 
 ---
