@@ -10,5 +10,4 @@ while i<len(s):
     else:
         k=s[i]
         a+=chr(ord("a")+ord("n")-ord(k))
-        i=i+1
 print(a)
