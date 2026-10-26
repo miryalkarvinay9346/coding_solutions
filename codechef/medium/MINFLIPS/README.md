@@ -64,11 +64,14 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-26T13:38:17.005Z  
+**Submitted:** 2026-10-26T13:38:56.970Z  
 
 ```py
 # cook your dish here
-
+for _ in range(int(input())):
+    n=int(input())
+    a=list(map(int,input().split()))
+    
 ```
 
 ---
