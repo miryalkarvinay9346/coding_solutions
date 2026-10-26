@@ -9,4 +9,4 @@ for _ in range(int(input())):
             print(-1)
         else:
             k=a.count(1)-(n//2)
-            print(k)
+            print(abs(k))
