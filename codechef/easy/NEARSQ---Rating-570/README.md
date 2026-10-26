@@ -50,13 +50,13 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-26T13:15:33.274Z  
+**Submitted:** 2026-10-26T13:16:05.892Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n=int(input())
-    """
+
     for i in range(1, n + 1):
         if i * i > n:
             print((i - 1) * (i - 1))
@@ -67,7 +67,7 @@ for _ in range(int(input())):
     for i in range(n,0,-1):
         if n>=i*i:
             print(i*i)
-            break
+            break"""
 ```
 
 ---
