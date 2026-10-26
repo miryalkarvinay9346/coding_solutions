@@ -5,4 +5,4 @@ for _ in range(int(input())):
     while a>0:
         s+=a%10
         a=a//10
-    print("Valid" if s==10 else "Invalid")
+    print("Valid" if s%10==0 else "Invalid")
