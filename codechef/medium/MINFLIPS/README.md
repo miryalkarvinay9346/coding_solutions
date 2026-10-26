@@ -64,7 +64,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-26T13:39:47.973Z  
+**Submitted:** 2026-10-26T13:45:53.958Z  
 
 ```py
 # cook your dish here
@@ -74,7 +74,11 @@ for _ in range(int(input())):
     if sum(a)==0:
         print(0)
     else:
-        
+        if n%2!=0:
+            print(-1)
+        else:
+            k=a.count(1)-(n//2)
+            print(k)
 ```
 
 ---
