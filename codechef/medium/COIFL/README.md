@@ -63,11 +63,13 @@ To achieve a sum of 2, there are two ways:
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-26T13:48:38.961Z  
+**Submitted:** 2026-10-26T13:49:18.964Z  
 
 ```py
 # cook your dish here
 s=int(input())
+c=0
+a,b=0,0
 
 ```
 
