@@ -57,7 +57,7 @@ For the third account number, the digit sum is $10$, which is divisible by $10$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-26T13:36:59.186Z  
+**Submitted:** 2026-10-26T13:37:39.278Z  
 
 ```py
 # cook your dish here
@@ -67,7 +67,7 @@ for _ in range(int(input())):
     while a>0:
         s+=a%10
         a=a//10
-    print("Valid" if s==10 else "Invalid")
+    print("Valid" if s%10==0 else "Invalid")
 ```
 
 ---
