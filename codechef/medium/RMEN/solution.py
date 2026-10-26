@@ -1,7 +1,8 @@
 # cook your dish here
 s=input()
 a=""
-for i in range(0,len(s)):
+i=0
+while i<len(s):
     if i<len(s)-1 and s[i+1]=="#":
         k=s[i]
         a=a+chr(ord('o')+ord("z")-ord(k))
@@ -9,4 +10,5 @@ for i in range(0,len(s)):
     else:
         k=s[i]
         a+=chr(ord("a")+ord("n")-ord(k))
+        i=i+1
 print(a)
