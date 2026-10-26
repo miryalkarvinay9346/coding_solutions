@@ -64,14 +64,17 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-26T13:39:24.003Z  
+**Submitted:** 2026-10-26T13:43:46.978Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n=int(input())
     a=list(map(int,input().split()))
-    
+    if sum(a)==0:
+        print(0)
+    else:
+        
 ```
 
 ---
