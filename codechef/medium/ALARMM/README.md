@@ -70,7 +70,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-28T15:43:24.343Z  
+**Submitted:** 2026-10-28T15:32:54.374Z  
 
 ```py
 # cook your dish here
@@ -78,7 +78,6 @@ for _ in range(int(input())):
     n,k=map(int,input().split())
     s=input()
     p=0
-    a=s.count("1")
     
 ```
 
