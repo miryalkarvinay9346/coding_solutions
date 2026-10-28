@@ -4,4 +4,4 @@ for _ in range(int(input())):
     s=input()
     p=0
     a=s.count("1")
-    print(max(1,a-))
+    print(max(1,a-k))
