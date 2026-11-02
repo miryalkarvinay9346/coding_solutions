@@ -53,7 +53,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-02T14:07:16.757Z  
+**Submitted:** 2026-11-02T14:08:25.763Z  
 
 ```py
 # cook your dish here
@@ -63,11 +63,13 @@ for _ in range(int(input())):
     c=0
     for i in range(n):
         k=0
-    
         for j in range(n):
             if a[i]>=a[j]:
                 k=k+1
-        
+        p=n-k
+        if k>p:
+            c+=1
+    print(c)
             
 ```
 
