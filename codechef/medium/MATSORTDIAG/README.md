@@ -41,11 +41,10 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-02T13:45:53.545Z  
+**Submitted:** 2026-11-02T13:44:24.550Z  
 
 ```py
 # cook your dish here
-n,m=map(int,input().split())
 
 ```
 
