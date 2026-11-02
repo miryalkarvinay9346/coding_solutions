@@ -8,7 +8,7 @@ d=[]
 for i in range(n):
     for j in range(m):
         if i==j:
-            d.append(a[i])
+            d.append(a[i][j])
 d.sort()
 k=0
 for i in range(n):
@@ -17,3 +17,4 @@ for i in range(n):
             a[i]=d[k]
             k+=1
 print(a)
+print(d)
