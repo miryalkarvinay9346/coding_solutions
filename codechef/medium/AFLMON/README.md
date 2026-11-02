@@ -53,14 +53,22 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-02T13:35:44.253Z  
+**Submitted:** 2026-11-02T14:07:16.757Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n=int(input())
     a=list(map(int,input().split()))
+    c=0
+    for i in range(n):
+        k=0
     
+        for j in range(n):
+            if a[i]>=a[j]:
+                k=k+1
+        
+            
 ```
 
 ---
