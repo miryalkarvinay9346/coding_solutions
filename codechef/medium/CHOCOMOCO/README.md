@@ -55,13 +55,16 @@ YES
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-02T13:33:33.517Z  
+**Submitted:** 2026-11-02T13:34:27.909Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n=int(input())
-    
+    if n%4==0 and n>=4 :
+        print("NO")
+    else:
+        print("YES")
 ```
 
 ---
