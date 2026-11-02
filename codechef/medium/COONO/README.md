@@ -52,13 +52,16 @@ NO
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-02T13:31:42.331Z  
+**Submitted:** 2026-11-02T13:32:14.784Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     a,b,c=map(int,input().split())
-    
+    if a+b==c:
+        print("YES")
+    else:
+        print("NO")
 ```
 
 ---
