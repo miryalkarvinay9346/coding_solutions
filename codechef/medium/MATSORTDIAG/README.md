@@ -41,7 +41,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-02T13:51:50.585Z  
+**Submitted:** 2026-11-02T13:50:40.522Z  
 
 ```py
 # cook your dish here
@@ -50,13 +50,11 @@ a=[]
 for i in range(n):
     k=list(map(int,input().split()))
     a.append(k)
-print(a)
-"""
 d=[]
 for i in range(n):
     for j in range(m):
         if i==j:
-            d.append(a[i][j])
+            d.append(a[i])
 d.sort()
 k=0
 for i in range(n):
@@ -65,8 +63,6 @@ for i in range(n):
             a[i]=d[k]
             k+=1
 print(a)
-print(d)
-"""
 ```
 
 ---
