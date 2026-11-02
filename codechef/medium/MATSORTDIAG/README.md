@@ -41,11 +41,29 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-02T13:44:34.552Z  
+**Submitted:** 2026-11-02T14:10:32.556Z  
 
 ```py
 # cook your dish here
-
+n,m=map(int,input().split())
+a=[]
+for i in range(n):
+    k=list(map(int,input().split()))
+    a.append(k)
+d=[]
+for i in range(n):
+    for j in range(m):
+        if a[i][j]==j:
+            d.append(a[i][j])
+d.sort()
+k=0
+for i in range(n):
+    for j in range(m):
+        if i==j:
+            a[i]=d[k]
+            k+=1
+print(a)
+print(d)
 ```
 
 ---
