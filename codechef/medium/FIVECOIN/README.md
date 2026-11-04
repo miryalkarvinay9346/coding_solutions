@@ -78,7 +78,7 @@ Use the $5$-rupee coin and three $1$-rupee coins.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-04T14:59:13.907Z  
+**Submitted:** 2026-11-04T14:59:21.913Z  
 
 ```py
 # cook your dish here
