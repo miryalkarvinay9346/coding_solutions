@@ -67,13 +67,14 @@ Explanation: The sum of all XOR totals for every subset is 480.
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 19.3 MB (beats 29.54%)  
-**Submitted:** 2026-11-05T13:37:47.030Z  
+**Runtime:** 0 ms  
+**Memory:** 19.1 MB  
+**Submitted:** 2026-11-05T13:38:16.702Z  
 
 ```py
 class Solution:
     def subsetXORSum(self, nums: list[int]) -> int:
+        """
         c=0
         for i in nums:
             c |=i
@@ -91,7 +92,7 @@ class Solution:
                     x ^= k[j]
                 c += x
         return c
-"""
+
 ```
 
 ---
