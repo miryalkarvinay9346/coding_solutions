@@ -67,9 +67,9 @@ Explanation: The sum of all XOR totals for every subset is 480.
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 19.1 MB  
-**Submitted:** 2026-11-05T13:38:16.702Z  
+**Runtime:** 20 ms (beats 28.09%)  
+**Memory:** 19.1 MB (beats 81.27%)  
+**Submitted:** 2026-11-05T13:38:22.744Z  
 
 ```py
 class Solution:
