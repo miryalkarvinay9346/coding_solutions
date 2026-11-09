@@ -57,15 +57,15 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-09T15:40:59.138Z  
+**Submitted:** 2026-11-09T15:41:33.121Z  
 
 ```py
 # update the code below to solve this problem
 import math
 t = int(input())
 for i in range(t):
+    n,m=map(int,input().split())
     
-
 ```
 
 ---
