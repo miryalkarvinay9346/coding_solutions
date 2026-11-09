@@ -56,13 +56,13 @@ NO
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-09T15:38:10.654Z  
+**Submitted:** 2026-11-09T15:39:26.658Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     p,d,k,b=map(int,input().split())
-    
+    a=p
 ```
 
 ---
