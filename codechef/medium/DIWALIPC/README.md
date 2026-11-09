@@ -56,17 +56,13 @@ NO
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-09T15:40:11.134Z  
+**Submitted:** 2026-11-09T15:38:16.661Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     p,d,k,b=map(int,input().split())
-    a=p+d*k
-    if a<=b:
-        print("YES")
-    else:
-        print("NO")
+    
 ```
 
 ---
