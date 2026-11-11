@@ -65,7 +65,7 @@ The total number of stones moved is $3$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-11T15:39:49.124Z  
+**Submitted:** 2026-11-11T15:40:12.111Z  
 
 ```py
 # cook your dish here
