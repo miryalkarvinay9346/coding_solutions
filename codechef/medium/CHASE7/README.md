@@ -64,12 +64,12 @@ It is impossible for Chef to win.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-11T15:02:22.931Z  
+**Submitted:** 2026-11-11T15:03:52.931Z  
 
 ```py
 # cook your dish here
-r,b=map(int,input().aplit())
-
+r,b=map(int,input().split())
+print("YES" if 6*b>=r else "NO")
 ```
 
 ---
