@@ -68,11 +68,14 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-11T15:09:22.057Z  
+**Submitted:** 2026-11-11T15:12:27.069Z  
 
 ```py
 # cook your dish here
-
+for _ in range(int(input())):
+    n=int(input())
+    s=input()
+    
 ```
 
 ---
