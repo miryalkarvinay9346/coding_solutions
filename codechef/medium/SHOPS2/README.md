@@ -60,7 +60,7 @@ If Chef went to both stores, the cost would be $\ge 200$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-11T15:05:50.840Z  
+**Submitted:** 2026-11-11T15:06:01.714Z  
 
 ```py
 # cook your dish here
