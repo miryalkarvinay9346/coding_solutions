@@ -68,7 +68,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-11T15:14:26.074Z  
+**Submitted:** 2026-11-11T15:16:33.079Z  
 
 ```py
 # cook your dish here
@@ -80,6 +80,7 @@ for _ in range(int(input())):
         k=int(str(int(s[i])+int(s[i+1])))
         if k%4==0:
             c+=1
+        print(k)
     print(c)
             
 ```
