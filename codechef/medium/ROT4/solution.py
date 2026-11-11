@@ -7,5 +7,6 @@ for _ in range(int(input())):
         k=int(str(int(s[i])+int(s[i+1])))
         if k%4==0:
             c+=1
+        print(k)
     print(c)
             
