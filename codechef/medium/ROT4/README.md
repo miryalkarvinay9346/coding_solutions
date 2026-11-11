@@ -68,21 +68,14 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-11T15:22:44.716Z  
+**Submitted:** 2026-11-11T15:10:16.059Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n=int(input())
     s=input()
-    c=0
-    for i in range(n):
-        k=int(s[i]+s[(i+1)%n])
-        if k%4==0:
-            c+=1
-    print(c)
     
-            
 ```
 
 ---
