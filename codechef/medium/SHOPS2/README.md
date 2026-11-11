@@ -60,11 +60,15 @@ If Chef went to both stores, the cost would be $\ge 200$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-11T15:04:32.733Z  
+**Submitted:** 2026-11-11T15:05:28.734Z  
 
 ```py
 # cook your dish here
-
+for _ in range(int(input())):
+    n,d=map(int,input().split())
+    a=list(map(int,input().split()))
+    b=list(map(int,input().split()))
+    
 ```
 
 ---
