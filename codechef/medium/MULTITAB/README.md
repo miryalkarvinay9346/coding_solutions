@@ -53,14 +53,14 @@ YES
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-16T13:38:11.587Z  
+**Submitted:** 2026-11-16T13:38:46.655Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     x,y=map(int,input().split())
     k=x*3
-    if k>=y:
+    if k<=y:
         print("YES")
     else:
         print("NO")
