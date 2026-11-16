@@ -58,14 +58,14 @@ Yes
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-16T06:56:56.030Z  
+**Submitted:** 2026-11-16T07:00:00.036Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n=int(input())
     a=list(map(int,input().split()))
-    
+    print("Yes" if sum(a)//n >=40 else "No")
 ```
 
 ---
