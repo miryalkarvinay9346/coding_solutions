@@ -10,6 +10,6 @@ for j in b:
     if j.isalnum():
         q.append(j.lower())
 if sorted(p)==sorted(q):
-    print("The sentences are anagrams.")
+    print("The sentences are anagrams")
 else:
-    print("The sentences are not anagrams.")
+    print("The sentences are not anagrams")
