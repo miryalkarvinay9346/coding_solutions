@@ -58,20 +58,13 @@ BGGGG
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-16T13:42:10.323Z  
+**Submitted:** 2026-11-16T13:40:14.696Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     s=input()
     r=input()
-    m=[""]*5
-    for i in range(5):
-        if s[i]==r[i]:
-            m[i]="G"
-        else:
-            m[i]="B"
-    print(m.join(""))
 ```
 
 ---
