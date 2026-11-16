@@ -66,7 +66,7 @@ Both sentences contain `hello` twice and `world` once. Punctuation separates the
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-16T14:15:25.539Z  
+**Submitted:** 2026-11-16T14:05:52.763Z  
 
 ```py
 # cook your dish here
@@ -81,9 +81,9 @@ for j in b:
     if j.isalnum():
         q.append(j.lower())
 if sorted(p)==sorted(q):
-    print("The sentences are anagrams.")
+    print("The sentences are anagrams")
 else:
-    print("The sentences are not anagrams.")
+    print("The sentences are not anagrams")
 ```
 
 ---
