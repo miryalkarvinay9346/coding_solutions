@@ -78,14 +78,18 @@ Both extracted digits are zero. The resulting number is printed as $0$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-16T13:46:00.741Z  
+**Submitted:** 2026-11-16T13:53:37.991Z  
 
 ```py
 # cook your dish here
 s=input()
 a=[]
 for i in s:
-    if 
+    if i.isdigit():
+        a.append(i)
+if len(a)==0:
+    print(-1)
+else
 ```
 
 ---
