@@ -66,11 +66,24 @@ Both sentences contain `hello` twice and `world` once. Punctuation separates the
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-16T14:00:38.755Z  
+**Submitted:** 2026-11-16T14:05:24.913Z  
 
 ```py
 # cook your dish here
-
+a=input()
+b=input()
+p=[]
+for i in a:
+    if i.isalnum():
+        p.append(i.lower())
+q=[]
+for j in b:
+    if j.isalnum():
+        q.append(j.lower())
+if sorted(p)==sorted(q):
+    print("The sentences are anagrams")
+else:
+    print("The sentences are not anagrams")
 ```
 
 ---
