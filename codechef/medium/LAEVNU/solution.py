@@ -21,4 +21,4 @@ else:
             a.remove(se)
             a.sort(reverse=True)
             a.append(se)
-            print(a)
+            print("".join(a))
