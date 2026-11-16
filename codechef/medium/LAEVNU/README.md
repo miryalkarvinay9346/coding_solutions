@@ -78,7 +78,7 @@ Both extracted digits are zero. The resulting number is printed as $0$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-16T13:59:38.991Z  
+**Submitted:** 2026-11-16T13:57:44.627Z  
 
 ```py
 # cook your dish here
@@ -104,7 +104,7 @@ else:
             a.remove(se)
             a.sort(reverse=True)
             a.append(se)
-            print("".join(a))
+            print(a)
 ```
 
 ---
