@@ -78,7 +78,7 @@ Both extracted digits are zero. The resulting number is printed as $0$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-16T13:43:29.998Z  
+**Submitted:** 2026-11-16T13:43:54.993Z  
 
 ```py
 # cook your dish here
