@@ -68,7 +68,7 @@ NO
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-18T15:22:42.823Z  
+**Submitted:** 2026-11-18T15:18:49.831Z  
 
 ```py
 # cook your dish here
@@ -81,9 +81,10 @@ for _ in range(int(input())):
     else:
         a=0
         i=0
-        while i<=n-2:
+        while i<=n-1:
             if s[i]==s[i+1]:
                 cl=cl-1
+                i+=2
             if cl==k:
                 a=1
                 break
