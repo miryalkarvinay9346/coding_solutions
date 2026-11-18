@@ -12,6 +12,7 @@ for _ in range(int(input())):
             if s[i]==s[i+1]:
                 cl=cl-1
                 i+=2
+                
             if cl==k:
                 a=1
                 break
