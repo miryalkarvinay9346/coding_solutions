@@ -8,9 +8,10 @@ for _ in range(int(input())):
     else:
         a=0
         i=0
-        while i<=n-2:
+        while i<=n-1:
             if s[i]==s[i+1]:
                 cl=cl-1
+                i+=2
             if cl==k:
                 a=1
                 break
