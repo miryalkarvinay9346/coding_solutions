@@ -75,12 +75,12 @@ YES
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-18T14:53:52.533Z  
+**Submitted:** 2026-11-18T14:55:28.225Z  
 
 ```py
 # cook your dish here
 n=int(input())
-
+print("YES" if x%3==0 else "NO")
 ```
 
 ---
