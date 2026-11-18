@@ -68,13 +68,34 @@ NO
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-18T15:13:50.799Z  
+**Submitted:** 2026-11-18T15:19:59.815Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n,k=map(int,input().split())
-    
+    s=input()
+    cl=n
+    if n==k:
+        print("YES")
+    else:
+        a=0
+        i=0
+        while i<=n-1:
+            if s[i]==s[i+1]:
+                cl=cl-1
+                i+=2
+                
+            if cl==k:
+                a=1
+                break
+            i+=1
+        if a==1:
+            print("YES")
+        else:
+            print("NO")
+                
+                
 ```
 
 ---
