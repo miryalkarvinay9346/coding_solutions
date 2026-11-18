@@ -68,7 +68,7 @@ NO
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-18T15:18:49.831Z  
+**Submitted:** 2026-11-18T15:20:25.468Z  
 
 ```py
 # cook your dish here
@@ -85,6 +85,7 @@ for _ in range(int(input())):
             if s[i]==s[i+1]:
                 cl=cl-1
                 i+=2
+                
             if cl==k:
                 a=1
                 break
