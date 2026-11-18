@@ -63,11 +63,13 @@ This leaves no finger free to tap the note at time $6$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-18T15:27:48.986Z  
+**Submitted:** 2026-11-18T15:29:04.970Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
+    n,g=map(int,input().split())
+    a=list(map(int,input().split()))
     
 ```
 
