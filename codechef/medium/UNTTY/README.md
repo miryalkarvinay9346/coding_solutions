@@ -79,12 +79,25 @@ The first `#` does nothing because the text is empty. Typing `a` gives `a`, and 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-23T15:36:23.321Z  
+**Submitted:** 2026-11-23T15:49:00.320Z  
 
 ```py
 # cook your dish here
 s=input()
-
+a=list(s)
+i=0
+k=[]
+for i in range(len(s)):
+    if s[i]=="#":
+        if len(k)==0 or not k:
+            continue
+        else:
+            k.pop()
+    else:
+        k.append(s[i])
+print("".join(k))
+        
+        
 ```
 
 ---
