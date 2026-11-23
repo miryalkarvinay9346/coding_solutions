@@ -75,7 +75,7 @@ The character finishes $8$ steps to the right of its starting position, so the d
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-23T15:32:30.992Z  
+**Submitted:** 2026-11-23T15:32:39.958Z  
 
 ```py
 # cook your dish here
