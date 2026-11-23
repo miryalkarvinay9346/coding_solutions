@@ -54,13 +54,16 @@ NO
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-23T15:34:03.685Z  
+**Submitted:** 2026-11-23T15:35:19.749Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     a,b,c,x=map(int,input().split())
-    
+    if a+b>=x or b+c>=x or c+a>=x:
+        print("YES")
+    else:
+        print("NO")
 ```
 
 ---
