@@ -75,12 +75,12 @@ The character finishes $8$ steps to the right of its starting position, so the d
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-23T15:32:39.958Z  
+**Submitted:** 2026-11-23T15:33:11.456Z  
 
 ```py
 # cook your dish here
 r,l=map(int,input().split())
-
+print(abs(r-l))
 ```
 
 ---
