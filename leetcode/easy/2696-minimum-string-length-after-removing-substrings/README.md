@@ -47,12 +47,13 @@ Explanation: We cannot do any operations on the string so the length remains the
 
 **Language:** Python  
 **Runtime:** 7 ms (beats 45.68%)  
-**Memory:** 19.1 MB (beats 67.65%)  
-**Submitted:** 2026-11-24T14:19:49.221Z  
+**Memory:** 19 MB (beats 86.42%)  
+**Submitted:** 2026-11-24T14:20:09.885Z  
 
 ```py
 class Solution:
     def minLength(self, s: str) -> int:
+        """
         a=[]
         for i in s:
             if a:
@@ -69,7 +70,7 @@ class Solution:
         while "AB" in s or "CD" in s:
             s=s.replace("AB","").replace("CD","")
         return len(s)
-        """
+        
 ```
 
 ---
