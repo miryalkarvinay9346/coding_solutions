@@ -60,13 +60,13 @@ YES
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-25T14:51:46.857Z  
+**Submitted:** 2026-11-25T14:52:42.828Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n,k=map(int,input().split())
-    if k<n:
+    if k>n:
         print("NO")
     else:
         a=(n+1)//2
