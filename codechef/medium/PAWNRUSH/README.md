@@ -61,15 +61,12 @@ The pawn first moves two rows, from row $2$ to row $4$, and then one row at a ti
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-25T14:42:42.102Z  
+**Submitted:** 2026-11-25T14:42:05.086Z  
 
 ```py
 # cook your dish here
 r=int(input())
-if r<=2:
-    print(8-r-1)
-else:
-    print(8-r)
+
 ```
 
 ---
