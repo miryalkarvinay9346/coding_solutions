@@ -61,7 +61,7 @@ The pawn first moves two rows, from row $2$ to row $4$, and then one row at a ti
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-25T14:37:14.087Z  
+**Submitted:** 2026-11-25T14:37:35.342Z  
 
 ```py
 # cook your dish here
