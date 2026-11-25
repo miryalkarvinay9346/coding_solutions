@@ -66,14 +66,22 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-25T14:56:09.781Z  
+**Submitted:** 2026-11-25T15:21:03.754Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n=int(input())
     a=list(map(int,input().split()))
-    
+    s=sum(a)
+    m=max(a)
+    c=0
+    for i in range(n):
+        k=max(m,2*a[i])
+        b=s+a[i]-k
+        c=max(c,b)
+    print(c)
+        
 ```
 
 ---
