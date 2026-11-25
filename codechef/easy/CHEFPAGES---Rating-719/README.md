@@ -63,15 +63,15 @@ The user  **has**  submitted on the practice page, but  **has not**  participate
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-25T12:48:45.704Z  
+**Submitted:** 2026-11-25T12:51:09.336Z  
 
 ```py
 # cook your dish here
 a,b=map(int,input().split())
-if a==1 and b==0:
-    print("https://www.codechef.com/contests")
-elif a==0 and b==1:
+if a==0 :
     print("https://www.codechef.com/practice")
+elif  b==0:
+    print("https://www.codechef.com/contests")
 else:
     print("https://discuss.codechef.com")
 ```
